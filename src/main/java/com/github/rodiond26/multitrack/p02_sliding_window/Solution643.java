@@ -2,17 +2,17 @@ package com.github.rodiond26.multitrack.p02_sliding_window;
 
 class Solution643 {
     public double findMaxAverage(int[] nums, int k) {
-        int sum = 0;
+        int currentSum = 0;
 
         for (int i = 0; i < k; i++) {
-            sum += nums[i];
+            currentSum += nums[i];
         }
 
-        int maxSum = sum;
+        int maxSum = currentSum;
 
         for (int i = 1; i <= nums.length - k; i++) {
-            sum = sum - nums[i - 1] + nums[i + k - 1];
-            maxSum = Math.max(maxSum, sum);
+            currentSum = currentSum - nums[i - 1] + nums[i + k - 1];
+            maxSum = Math.max(maxSum, currentSum);
         }
 
         return (double) maxSum / k;

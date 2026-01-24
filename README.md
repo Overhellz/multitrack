@@ -12,7 +12,7 @@ https://github.com/Overhellz/multitrack
 |  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | Practice |     -      |  Done  |  12  |
 |  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Practice |     -      |  Done  |  6   |
 | Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | Practice |     -      |  Done  |  3   |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | Practice |     **     |  Done  |  26  |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | Practice |     +*     |  Done  |  26  |
 | Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | Practice |     *      |  Done  |  6   |
 |  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | Practice |     -      |  Done  |  5   |
 |  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | Practice |     *      |  Done  |  10  |
@@ -25,19 +25,19 @@ https://github.com/Overhellz/multitrack
 
 ## 2. Sliding Window (Скользящее окно)
 
-| Level  | Name                                              | Link                                                                          |   Type   | Repeatable | Status | Time |
-|:------:|:--------------------------------------------------|:------------------------------------------------------------------------------|:--------:|:----------:|:------:|:----:|
-|  Easy  | 643. Maximum Average Subarray I                   | https://leetcode.com/problems/maximum-average-subarray-i/                     | Practice |     **     |  Done  |  21  |
-| Medium | 209. Minimum Size Subarray Sum                    | https://leetcode.com/problems/minimum-size-subarray-sum/                      | Practice |    ***     |  Done  |  25  |
-| Medium | 1004                                              |                                                                               | Practice |            |        |      |
-| Medium | 1493                                              |                                                                               | Practice |            |        |      |
-| Medium | 904                                               |                                                                               | Practice |            |        |      |
-| Medium | 3. Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ | Practice |     **     |   -    |      |
-| Medium | 424                                               |                                                                               | Practice |            |        |      |
-| Medium | 567                                               |                                                                               | Practice |            |        |      |
-| Medium | 438                                               |                                                                               | Practice |            |        |      |
-| Medium | 713                                               |                                                                               | Practice |            |        |      |
-| Medium | 1358                                              |                                                                               | Practice |            |        |      |
+| Level  | Name                                                       | Link                                                                                |   Type   | Repeatable | Status | Time |
+|:------:|:-----------------------------------------------------------|:------------------------------------------------------------------------------------|:--------:|:----------:|:------:|:----:|
+|  Easy  | 643. Maximum Average Subarray I                            | https://leetcode.com/problems/maximum-average-subarray-i/                           | Practice |     +*     |  Done  |  21  |
+| Medium | 209. Minimum Size Subarray Sum                             | https://leetcode.com/problems/minimum-size-subarray-sum/                            | Practice |    ***     |  Done  |  25  |
+| Medium | 1004. Max Consecutive Ones III                             | https://leetcode.com/problems/max-consecutive-ones-iii/                             | Practice |     *      |  Done  |  20  |
+| Medium | 1493. Longest Subarray of 1's After Deleting One Element   | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/    | Practice |            |        |      |
+| Medium | 904. Fruit Into Baskets                                    | https://leetcode.com/problems/fruit-into-baskets/                                   | Practice |            |        |      |
+| Medium | 3. Longest Substring Without Repeating Characters          | https://leetcode.com/problems/longest-substring-without-repeating-characters/       | Practice |     **     |   -    |      |
+| Medium | 424. Longest Repeating Character Replacement               | https://leetcode.com/problems/longest-repeating-character-replacement/              | Practice |            |        |      |
+| Medium | 567. Permutation in String                                 | https://leetcode.com/problems/permutation-in-string/                                | Practice |            |        |      |
+| Medium | 438. Find All Anagrams in a String                         | https://leetcode.com/problems/find-all-anagrams-in-a-string/                        | Practice |     *      |  Done  |  16  |
+| Medium | 713. Subarray Product Less Than K                          | https://leetcode.com/problems/subarray-product-less-than-k/                         | Practice |     *      |  Done  |  8   |
+| Medium | 1358. Number of Substrings Containing All Three Characters | https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/ | Practice |            |        |      |
 
 ---
 
@@ -53,7 +53,7 @@ https://github.com/Overhellz/multitrack
 № Тема Задачи LeetCode
 
 2 Sliding Window
-Medium: 1004, 1493, 904, 3, 424, 567, 438, 713, 1358
+Medium:303 724 1004, 1493, 904, 3, 424, 567, 438, 713, 1358
 
 3 Prefix Sum
 Easy:  724
