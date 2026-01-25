@@ -5,30 +5,37 @@ import java.util.Map;
 
 class Solution3 {
     public int lengthOfLongestSubstring(String s) {
-        Map<Character, Integer> state = new HashMap<>();
+        int start = 0;
         int max = 0;
 
-        int begin = 0;
-        int end = 0;
-
+        Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
-            state.put(s.charAt(i), state.getOrDefault(s.charAt(i), 0) + 1);
-            if (hasOnlyOneTime(state)) {
-
+            if (hasOverOne(map)) {
+                start++;
+                pop(map, s.charAt(i));
+            } else {
+                max = Math.max(max, i - start + 1);
+                push(map, s.charAt(i));
             }
-
         }
-
 
         return max;
     }
 
-    private boolean hasOnlyOneTime(Map<Character, Integer> state) {
-        for (Map.Entry<Character, Integer> entry : state.entrySet()) {
+    private void push(Map<Character, Integer> map, char ch) {
+        map.put(ch, map.getOrDefault(ch, 0) + 1);
+    }
+
+    private void pop(Map<Character, Integer> map, char ch) {
+        map.put(ch, map.get(ch) - 1);
+    }
+
+    private boolean hasOverOne(Map<Character, Integer> map) {
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             if (entry.getValue() > 1) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 }
