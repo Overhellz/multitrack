@@ -66,12 +66,11 @@ https://github.com/Overhellz/multitrack
 Формула: Если prefixSum[j] - prefixSum[i] = k, то сумма подмассива [i, j-1] равна k. На практике при итерации мы
 спрашиваем: count += map.get(prefixSum - k).
 
-
-| Level | Name                                  | Link                                                           | Repeatable | Status | Time |
-|:-----:|:--------------------------------------|:---------------------------------------------------------------|:----------:|:------:|:----:|
-| Easy  | 1480. Running Sum of 1d Array         | https://leetcode.com/problems/running-sum-of-1d-array/         |     -      |  Done  |  3   |
-| Easy  | 303. Range Sum Query - Immutable      | https://leetcode.com/problems/range-sum-query-immutable/       |     *      |  Done  |  7   |
-| Easy  | 1588. Sum of All Odd Length Subarrays | https://leetcode.com/problems/sum-of-all-odd-length-subarrays/ |     **     |  Done  |  27  |
+| Level  | Name                                 | Link                                                          | Repeatable | Status | Time |
+|:------:|:-------------------------------------|:--------------------------------------------------------------|:----------:|:------:|:----:|
+| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          |    ****    |  Done  |  13  |
+| Medium | 930. Binary Subarrays With Sum       | https://leetcode.com/problems/binary-subarrays-with-sum/      |    ***     |  Done  |  6   |
+| Medium | 1248. Count Number of Nice Subarrays | https://leetcode.com/problems/count-number-of-nice-subarrays/ |    ***     |  Done  |  11  |
 
 --- 
 
@@ -107,24 +106,6 @@ prefix[r+1] - prefix[l] даст их количество на отрезке [
 ---
 
 3. Список задач для проработки на Leetcode
-   Easy (для понимания базовых принципов)
-1480. Running Sum of 1d Array — буквально построение префиксного массива.
-
-303. Range Sum Query - Immutable — классический пример использования для запросов суммы на отрезке.
-
-1588. Sum of All Odd Length Subarrays — хорошая задача для применения префиксных сумм в несложном контексте.
-
-Medium (основная отработка техник)
-Группа 1: Хеширование префиксных сумм (самая важная группа)
-
-4.
-    560. Subarray Sum Equals K — ФУНДАМЕНТАЛЬНАЯ ЗАДАЧА. Должна решаться с закрытыми глазами. Используем HashMap<
-         prefixSum, count>.
-5.
-    930. Binary Subarrays With Sum — аналогично 560, но для бинарного массива. Можно решить через хеш или методом двух
-         указателей.
-6.
-    1248. Count Number of Nice Subarrays — модификация: префикс хранит количество нечетных чисел.
 
 Группа 2: Модульная арифметика (остатки)
 
