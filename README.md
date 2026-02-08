@@ -267,19 +267,19 @@ index — если нужно проверить длину/расстояние
 
 ## 5. Stack, Queue (стек, очередь)
 
-| Level  | Name | Link | Repeatable | Status | Time |
-|:------:|:-----|:-----|:----------:|:------:|:----:|
-|  Easy  | 20   |      |            |        |      |
-|  Easy  | 1047 |      |            |        |      |
-|  Easy  | 933  |      |            |        |      |
-| Medium | 2390 |      |            |        |      |
-| Medium | 71   |      |            |        |      |
-| Medium | 155  |      |            |        |      |
-| Medium | 225  |      |            |        |      |
-| Medium | 232  |      |            |        |      |
-| Medium | 150  |      |            |        |      |
-| Medium | 227  |      |            |        |      |
-| Medium | 341  |      |            |        |      |
+| Level  | Name                                           | Link                                                                    | Repeatable | Status | Time |
+|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------:|:------:|:----:|
+|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        |     -      |  Done  |      |
+|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |     -      |  Done  |      |
+|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   |     -      |  Done  |      |
+| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             |     -      |  Done  |      |
+| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            |     -      |  Done  |      |
+| Medium | 155. Min Stack                                 | https://leetcode.com/problems/min-stack/                                |     -      |  Done  |      |
+|  Easy  | 225. Implement Stack using Queues              | https://leetcode.com/problems/implement-stack-using-queues/             |            |        |      |
+|  Easy  | 232. Implement Queue using Stacks              | https://leetcode.com/problems/implement-queue-using-stacks/             |            |        |      |
+| Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         |     -      |  Done  |      |
+| Medium | 227. Basic Calculator II                       | https://leetcode.com/problems/basic-calculator-ii/                      |            |        |      |
+| Medium | 341. Flatten Nested List Iterator              | https://leetcode.com/problems/flatten-nested-list-iterator/             |            |        |      |
 
 ---
 
@@ -330,12 +330,38 @@ Medium: 100, 101, 543, 236, 105, 114, 129, 437
 Easy: 700, 108
 Medium: 98, 701, 450, 230, 173, 96, 95, 538
 
+| Level  | Name | Link | Repeatable | Status | Time |
+|:------:|:-----|:-----|:----------:|:------:|:----:|
+|  Easy  | 700  |      |            |        |      |
+|  Easy  | 108  |      |            |        |      |
+| Medium | 98   |      |            |        |      |
+| Medium | 701  |      |            |        |      |
+| Medium | 450  |      |            |        |      |
+| Medium | 230  |      |            |        |      |
+| Medium | 173  |      |            |        |      |
+| Medium | 96   |      |            |        |      |
+| Medium | 95   |      |            |        |      |
+| Medium | 538  |      |            |        |      |
+
 ---
 
 ## 9 Binary Tree, BFS
 
 Easy: 637
 Medium: 102, 103, 199, 515, 117, 1302, 116, 987, 513
+
+| Level  | Name | Link | Repeatable | Status | Time |
+|:------:|:-----|:-----|:----------:|:------:|:----:|
+|  Easy  | 637  |      |            |        |      |
+| Medium | 102  |      |            |        |      |
+| Medium | 103  |      |            |        |      |
+| Medium | 199  |      |            |        |      |
+| Medium | 515  |      |            |        |      |
+| Medium | 117  |      |            |        |      |
+| Medium | 1302 |      |            |        |      |
+| Medium | 116  |      |            |        |      |
+| Medium | 987  |      |            |        |      |
+| Medium | 513  |      |            |        |      |
 
 ---
 
