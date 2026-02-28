@@ -6,17 +6,17 @@ https://github.com/Overhellz/multitrack
 
 |  # |       Theme        | Tasks                                                                          |
 |---:|:------------------:|--------------------------------------------------------------------------------|
-|  1 |    Two Pointers    | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
-|  2 |   Sliding Window   | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
-|  3 |     Prefix Sum     | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
-|  4 |      Hash Map      | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
-|  5 |    Stack, Queue    | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
-|  6 |    Linked List     | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
-|  7 | Binary Tree (DFS)  | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
-|  8 | Binary Search Tree | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
-|  9 | Binary Tree (BFS)  | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
-| 10 |     Intervals      | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
-| 11 |   Binary Search    | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
+|  1 |      Hash Map      | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
+|  2 |   Binary Search    | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
+|  3 |    Two Pointers    | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
+|  4 |   Sliding Window   | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
+|  5 |     Prefix Sum     | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
+|  6 |    Stack, Queue    | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
+|  7 |    Linked List     | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
+|  8 |     Intervals      | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
+|  9 | Binary Tree (DFS)  | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
+| 10 | Binary Search Tree | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
+| 11 | Binary Tree (BFS)  | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
 | 12 |    Backtracking    | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
 
 ---
@@ -52,53 +52,38 @@ Backtracking
 
 ## 1. Hash Map
 
-| Level  | Name                              | Link                                                        | Retention |
-|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
-|  Easy  | 706                               | https://leetcode.com/problems/design-hashmap/               |           |
-|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | 5         |
-|  Easy  | 136. Single Number                | https://leetcode.com/problems/single-number/                | 5         |
-| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | 4         |
-| Medium | 451. Sort Characters By Frequency | https://leetcode.com/problems/sort-characters-by-frequency/ | 5         |
-| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               |           |
-| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |           |
-| Medium | 535                               |                                                             |           |
-| Medium | 138                               |                                                             |           |
-| Medium | 166                               |                                                             |           |
-| Medium | 454                               |                                                             |           |
-
-Лёгкие
-
-706 — Проектирование HashMap (понять, как устроена внутри)
-
-1 — Две суммы (абсолютный базис)
-
-136 — Число, которое встречается один раз (биты + мапа)
-
-Средние
-
-347 — Топ K частых элементов (Bucket Sort / Heap)
-
-451 — Сортировка символов по частоте (как 347, но строки)
-
-49 — Группировка анаграмм (сортировка или кастомный ключ)
-
-128 — Самая длинная последовательность (поиск начала)
-
-535 — Кодирование TinyURL (система дизайн)
-
-138 — Копирование списка со случайной ссылкой (копирование с мапой)
-
-Сложные
-
-166 — Дробь в десятичную (циклы в делении)
-
-454 — Четыре суммы II (разбиение на пары)
-
-
+| Level  | Name                               | Link                                                         | Retention |
+|:------:|:-----------------------------------|:-------------------------------------------------------------|:----------|
+|  Easy  | 706                                | https://leetcode.com/problems/design-hashmap/                |           |
+|  Easy  | 1. Two Sum                         | https://leetcode.com/problems/two-sum/                       | 5         |
+|  Easy  | 136. Single Number                 | https://leetcode.com/problems/single-number/                 | 5         |
+| Medium | 347. Top K Frequent Elements       | https://leetcode.com/problems/top-k-frequent-elements/       | 4         |
+| Medium | 451. Sort Characters By Frequency  | https://leetcode.com/problems/sort-characters-by-frequency/  | 5         |
+| Medium | 49. Group Anagrams                 | https://leetcode.com/problems/group-anagrams/                |           |
+| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  |           |
+| Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     |           |
+| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ |           |
+| Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ |           |
+| Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       |           |
 
 ---
 
-## 1. Two Pointers (два указателя)
+## 2. Binary Search
+
+| Level  | Name                                                        | Link                                                                                   | Retention |
+|:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           |           |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  |           |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      |           |
+| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
+| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |           |
+| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
+| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
+| Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     |           |
+
+---
+
+## 3. Two Pointers
 
 | Level  | Name                                    | Link                                                               | Repeatable | Status |
 |:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------:|:------:|
@@ -117,7 +102,7 @@ Backtracking
 
 ---
 
-## 2. Sliding Window (скользящее окно)
+## 4. Sliding Window
 
 | Level  | Name                                                       | Link                                                                                | Repeatable | Status |
 |:------:|:-----------------------------------------------------------|:------------------------------------------------------------------------------------|:----------:|:------:|
@@ -135,7 +120,7 @@ Backtracking
 
 ---
 
-## 3. Prefix Sum (префиксная сумма)
+## 5. Prefix Sum
 
 | Level  | Name                                 | Link                                                          | Repeatable | Status |
 |:------:|:-------------------------------------|:--------------------------------------------------------------|:----------:|:------:|
@@ -153,11 +138,7 @@ Backtracking
 
 ---
 
-
-
----
-
-## 5. Stack, Queue (стек, очередь)
+## 6. Stack, Queue
 
 | Level  | Name                                           | Link                                                                    | Repeatable | Status |
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------:|:------:|
@@ -175,24 +156,40 @@ Backtracking
 
 ---
 
-## 6. Linked List
+## 7. Linked List
 
-| Stage | Level  | Name                                 | Link                                                            | Repeatable | Status |
-|:-----:|:------:|:-------------------------------------|:----------------------------------------------------------------|:----------:|:------:|
-|   1   | Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |    ***     |        |
-|   1   |  Easy  | 206. Reverse Linked List             | https://leetcode.com/problems/reverse-linked-list/              |    +**     |  Done  |
-|   1   | Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |     **     |  Done  |
-|   1   |  Easy  | 21. Merge Two Sorted Lists           | https://leetcode.com/problems/merge-two-sorted-lists/           |     **     |  Done  |
-|   2   |  Easy  | 141. Linked List Cycle               | https://leetcode.com/problems/linked-list-cycle/                |     **     |  Done  |
-|   2   | Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ |            |        |
-|   2   | Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  |            |        |
-|   2   | Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           |            |        |
-|   3   | Medium | 143                                  |                                                                 |            |        |
-|   3   | Medium | 23                                   |                                                                 |            |        |
-|   3   | Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    |            |        |
-|   4   | Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             |            |        |
-|   4   | Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |            |        |
-|   4   | Medium | 25                                   |                                                                 |            |        |
+| Level  | Name                                 | Link                                                            | Repeatable | Status |
+|:------:|:-------------------------------------|:----------------------------------------------------------------|:----------:|:------:|
+| Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |    ***     |        |
+|  Easy  | 206. Reverse Linked List             | https://leetcode.com/problems/reverse-linked-list/              |    +**     |  Done  |
+| Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |     **     |  Done  |
+|  Easy  | 21. Merge Two Sorted Lists           | https://leetcode.com/problems/merge-two-sorted-lists/           |     **     |  Done  |
+|  Easy  | 141. Linked List Cycle               | https://leetcode.com/problems/linked-list-cycle/                |     **     |  Done  |
+| Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ |            |        |
+| Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  |            |        |
+| Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           |            |        |
+| Medium | 143                                  |                                                                 |            |        |
+| Medium | 23                                   |                                                                 |            |        |
+| Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    |            |        |
+| Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             |            |        |
+| Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |            |        |
+| Medium | 25                                   |                                                                 |            |        |
+
+---
+
+## 11 Intervals
+
+| Level  | Name                                                 | Link                                                                          | Retention |
+|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:---------:|
+| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |           |
+| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |           |
+| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
+| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
+| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
+| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
+| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
+| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
+| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
 
 ---
 
@@ -247,65 +244,3 @@ Backtracking
 | Medium | 513  |      |            |        |
 
 ---
-
-## 10. Heap
-
-Easy: 703, 1046
-
-Medium: 215, 347, 451, 23, 378, 973, 621, 767, 1054
-
----
-
-## 11 Intervals
-
-Medium: 56, 57, 253, 435, 452, 763, 1288, 1094, 436
-
----
-
-## 12 Graph, intro
-
-Medium: 841, 1971, 133, 1557, 797, 399, 684, 802
-
----
-
-## 13. Graph, part 1
-
-Medium: 547, 200, 695, 1466, 2368, 542, 130, 417, 1020
-
----
-
-## 14 Graph, part 2
-
-Medium: 1091, 994, 1926, 752, 433, 1129, 207, 210, 310
-
----
-
-## 15 LRU
-
-Medium: 146, 355, 380
-
-| Level  | Name                              | Link                                                      | Repeatable | Status |
-|:------:|:----------------------------------|:----------------------------------------------------------|:----------:|:------:|
-| Medium | 146. LRU Cache                    | https://leetcode.com/problems/lru-cache/                  |            |        |
-| Medium | 355. Design Twitter               | https://leetcode.com/problems/design-twitter/             |            |        |
-| Medium | 380. Insert Delete GetRandom O(1) | https://leetcode.com/problems/insert-delete-getrandom-o1/ |            |        |
-
----
-
-## 16 Trie, Autocomplete
-
-| Level  | Name | Link | Repeatable | Status |
-|:------:|:-----|:-----|:----------:|:------:|
-| Medium | 208  |      |            |        |
-| Medium | 1268 |      |            |        |
-| Medium | 211  |      |            |        |
-| Medium | 648  |      |            |        |
-| Medium | 677  |      |            |        |
-| Medium | 676  |      |            |        |
-| Medium | 720  |      |            |        |
-
----
-
-## 0 Реализация структур данных:
-
-Medium: 380, 588, 895 380, 588, 895 –
