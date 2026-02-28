@@ -4,20 +4,97 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-| Week |       Theme        | Tasks                                                                          |
-|:----:|:------------------:|--------------------------------------------------------------------------------|
-|  1   |    Two Pointers    | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
-|  2   |   Sliding Window   | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
-|  3   |     Prefix Sum     | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
-|  4   |      Hash Map      | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
-|  5   |    Stack, Queue    | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
-|  6*  |    Linked List     | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
-|  7   | Binary Tree (DFS)  | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
-|  8   | Binary Search Tree | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
-|  9   | Binary Tree (BFS)  | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
-|  10  |     Intervals      | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
-|  11  |   Binary Search    | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
-|  12  |    Backtracking    | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
+|  # |       Theme        | Tasks                                                                          |
+|---:|:------------------:|--------------------------------------------------------------------------------|
+|  1 |    Two Pointers    | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
+|  2 |   Sliding Window   | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
+|  3 |     Prefix Sum     | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
+|  4 |      Hash Map      | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
+|  5 |    Stack, Queue    | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
+|  6 |    Linked List     | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
+|  7 | Binary Tree (DFS)  | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
+|  8 | Binary Search Tree | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
+|  9 | Binary Tree (BFS)  | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
+| 10 |     Intervals      | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
+| 11 |   Binary Search    | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
+| 12 |    Backtracking    | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
+
+---
+Hash Map
+Binary Search
+Two Pointers
+Sliding Window
+Prefix Sum
+---
+Stack, Queue
+Linked List
+Intervals
+---
+Binary Tree (DFS)
+Binary Search Tree
+Binary Tree (BFS)
+---
+Backtracking
+
+---
+
+## Retention Rating Scale
+
+| Retention | Description                                             |
+|:---------:|:--------------------------------------------------------|
+|     5     | Solved independently, within time.                      |
+|     4     | Solved independently, but too slow / minor errors.      |
+|     3     | Recalled algorithm, but code had errors / needed hints. |
+|     2     | Vaguely remembered the topic, couldn't solve.           |
+|     1     | Complete failure (didn't recognize the problem).        |
+
+---
+
+## 1. Hash Map
+
+| Level  | Name                              | Link                                                        | Retention |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
+|  Easy  | 706                               | https://leetcode.com/problems/design-hashmap/               |           |
+|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | 5         |
+|  Easy  | 136. Single Number                | https://leetcode.com/problems/single-number/                | 5         |
+| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | 4         |
+| Medium | 451. Sort Characters By Frequency | https://leetcode.com/problems/sort-characters-by-frequency/ | 5         |
+| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               |           |
+| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |           |
+| Medium | 535                               |                                                             |           |
+| Medium | 138                               |                                                             |           |
+| Medium | 166                               |                                                             |           |
+| Medium | 454                               |                                                             |           |
+
+Лёгкие
+
+706 — Проектирование HashMap (понять, как устроена внутри)
+
+1 — Две суммы (абсолютный базис)
+
+136 — Число, которое встречается один раз (биты + мапа)
+
+Средние
+
+347 — Топ K частых элементов (Bucket Sort / Heap)
+
+451 — Сортировка символов по частоте (как 347, но строки)
+
+49 — Группировка анаграмм (сортировка или кастомный ключ)
+
+128 — Самая длинная последовательность (поиск начала)
+
+535 — Кодирование TinyURL (система дизайн)
+
+138 — Копирование списка со случайной ссылкой (копирование с мапой)
+
+Сложные
+
+166 — Дробь в десятичную (циклы в делении)
+
+454 — Четыре суммы II (разбиение на пары)
+
+
 
 ---
 
@@ -76,21 +153,7 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 4. Hash Map (хеш-таблица)
 
-| Level  | Name                              | Link                                                        | Repeatable | Status |
-|:------:|:----------------------------------|:------------------------------------------------------------|:----------:|:------:|
-|  Easy  | 706                               |                                                             |            |        |
-|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      |     -      |  Done  |
-|  Easy  | 136. Single Number                | https://leetcode.com/problems/single-number/                |     -      |  Done  |
-| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      |     *      |  Done  |
-| Medium | 451. Sort Characters By Frequency | https://leetcode.com/problems/sort-characters-by-frequency/ |     -      |  Done  |
-| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               |     *      |  Done  |
-| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |     *      |  Done  |
-| Medium | 535                               |                                                             |            |        |
-| Medium | 138                               |                                                             |            |        |
-| Medium | 166                               |                                                             |            |        |
-| Medium | 454                               |                                                             |            |        |
 
 ---
 
@@ -114,67 +177,40 @@ https://github.com/Overhellz/multitrack
 
 ## 6. Linked List
 
-| Level  | Name                                 | Link                                                            | Repeatable | Status |
-|:------:|:-------------------------------------|:----------------------------------------------------------------|:----------:|:------:|
-| Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |    ***     |        |
-|  Easy  | 206. Reverse Linked List             | https://leetcode.com/problems/reverse-linked-list/              |    +**     |  Done  |
-| Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |     **     |  Done  |
-|  Easy  | 21. Merge Two Sorted Lists           | https://leetcode.com/problems/merge-two-sorted-lists/           |     **     |  Done  |
-|  Easy  | 141. Linked List Cycle               | https://leetcode.com/problems/linked-list-cycle/                |     **     |  Done  |
-| Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ |            |        |
-| Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |            |        |
-| Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |            |        |
-| Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           |            |        |
-| Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |            |        |
-| Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  |            |        |
-| Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    |            |        |
-| Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             |            |        |
-
-Этап 2: Базовые алгоритмы (4 задачи)
-141++ — поиск цикла
-
-19+ — удаление с конца
-
-2++ — сложение чисел
-
-234 — проверка на палиндром
-
-Этап 3: Must-have сложные (3 задачи)
-143+ — переупорядочивание (комбинация навыков)
-
-23+++ — слияние k списков (очень часто)
-
-138+ — копирование со случайными указателями
-
-Этап 4: Challenge (2 задачи)
-142 — поиск начала цикла
-
-24 — попарный обмен
-
-25+ — reverse групп по k (hard)
-
-
-
-
-
+| Stage | Level  | Name                                 | Link                                                            | Repeatable | Status |
+|:-----:|:------:|:-------------------------------------|:----------------------------------------------------------------|:----------:|:------:|
+|   1   | Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |    ***     |        |
+|   1   |  Easy  | 206. Reverse Linked List             | https://leetcode.com/problems/reverse-linked-list/              |    +**     |  Done  |
+|   1   | Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |     **     |  Done  |
+|   1   |  Easy  | 21. Merge Two Sorted Lists           | https://leetcode.com/problems/merge-two-sorted-lists/           |     **     |  Done  |
+|   2   |  Easy  | 141. Linked List Cycle               | https://leetcode.com/problems/linked-list-cycle/                |     **     |  Done  |
+|   2   | Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ |            |        |
+|   2   | Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  |            |        |
+|   2   | Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           |            |        |
+|   3   | Medium | 143                                  |                                                                 |            |        |
+|   3   | Medium | 23                                   |                                                                 |            |        |
+|   3   | Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    |            |        |
+|   4   | Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             |            |        |
+|   4   | Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |            |        |
+|   4   | Medium | 25                                   |                                                                 |            |        |
 
 ---
 
 ## 7. Binary Tree, DFS
 
-| Level  | Name | Link | Repeatable | Status |
-|:------:|:-----|:-----|:----------:|:------:|
-|  Easy  | 104  |      |            |        |
-|  Easy  | 226  |      |            |        |
-|  Easy  | 112  |      |            |        |
-| Medium | 100  |      |            |        |
-| Medium | 101  |      |            |        |
-| Medium | 543  |      |            |        |
-| Medium | 236  |      |            |        |
-| Medium | 105  |      |            |        |
-| Medium | 114  |      |            |        |
-| Medium | 129  |      |            |        |
-| Medium | 437  |      |            |        |
+| Level  | Name                              | Link                                                        | Repeatable | Status |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------:|:------:|
+|  Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ |    ***     |  Done  |
+|  Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           |    ***     |  Done  |
+|  Easy  | 112                               |                                                             |            |        |
+| Medium | 100                               |                                                             |            |        |
+| Medium | 101                               |                                                             |            |        |
+| Medium | 543                               |                                                             |            |        |
+| Medium | 236                               |                                                             |            |        |
+| Medium | 105                               |                                                             |            |        |
+| Medium | 114                               |                                                             |            |        |
+| Medium | 129                               |                                                             |            |        |
+| Medium | 437                               |                                                             |            |        |
 
 ---
 
