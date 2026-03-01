@@ -55,9 +55,9 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                                        | Link                                                                                   | Retention |
 |:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
-|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           |           |
-|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  |           |
-| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      |           |
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3         |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2         |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2         |
 | Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |           |
 | Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
 | Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
@@ -160,7 +160,7 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 11 Intervals
+## 8. Intervals
 
 | Level  | Name                                                 | Link                                                                          | Retention |
 |:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:---------:|
@@ -176,7 +176,7 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 7. Binary Tree, DFS
+## 9. Binary Tree (DFS)
 
 | Level  | Name                              | Link                                                        | Repeatable | Status |
 |:------:|:----------------------------------|:------------------------------------------------------------|:----------:|:------:|
@@ -194,7 +194,7 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 8. Binary Search Tree
+## 10. Binary Search Tree
 
 | Level  | Name                                            | Link                                                                      | Repeatable | Status |
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----------:|:------:|
@@ -211,7 +211,7 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 9 Binary Tree, BFS
+## 11. Binary Tree (BFS)
 
 | Level  | Name | Link | Repeatable | Status |
 |:------:|:-----|:-----|:----------:|:------:|
@@ -225,5 +225,22 @@ https://github.com/Overhellz/multitrack
 | Medium | 116  |      |            |        |
 | Medium | 987  |      |            |        |
 | Medium | 513  |      |            |        |
+
+---
+
+## 12. Backtracking
+
+| Level | Name | Link | Repeatable | Status |
+|:-----:|:-----|:-----|:----------:|:------:|
+|       | 784  |      |            |        |
+|       | 257  |      |            |        |
+|       | 78   |      |            |        |
+|       | 46   |      |            |        |
+|       | 39   |      |            |        |
+|       | 17   |      |            |        |
+|       | 22   |      |            |        |
+|       | 79   |      |            |        |
+|       | 90   |      |            |        |
+|       | 77   |      |            |        |
 
 ---
