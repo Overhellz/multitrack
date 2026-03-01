@@ -20,23 +20,6 @@ https://github.com/Overhellz/multitrack
 | 12 |    Backtracking    | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
 
 ---
-Hash Map
-Binary Search
-Two Pointers
-Sliding Window
-Prefix Sum
----
-Stack, Queue
-Linked List
-Intervals
----
-Binary Tree (DFS)
-Binary Search Tree
-Binary Tree (BFS)
----
-Backtracking
-
----
 
 ## Retention Rating Scale
 
@@ -75,10 +58,10 @@ Backtracking
 |  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           |           |
 |  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  |           |
 | Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      |           |
-| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
 | Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |           |
-| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
+| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
 | Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
+| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
 | Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     |           |
 
 ---
