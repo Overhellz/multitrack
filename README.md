@@ -55,10 +55,10 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                                        | Link                                                                                   | Retention |
 |:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
-|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3         |
-|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2         |
-| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2         |
-| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |           |
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3,5       |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2,2       |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2,3       |
+| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    | 3         |
 | Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
 | Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
 | Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
