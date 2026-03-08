@@ -4,15 +4,14 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution347 {
+class Solution347 {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> valueCount = new HashMap<>();
+        Map<Integer, Integer> numCount = new HashMap<>();
         for (int num : nums) {
-            valueCount.put(num, valueCount.getOrDefault(num, 0) + 1);
+            numCount.put(num, numCount.getOrDefault(num, 0) + 1);
         }
-
-        return valueCount.entrySet().stream()
-                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+        return numCount.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())) // TODO hints
                 .limit(k)
                 .mapToInt(Map.Entry::getKey)
                 .toArray();

@@ -33,17 +33,48 @@ https://github.com/Overhellz/multitrack
 
 ---
 
+## Паттерн «Подсмотрел — Присвоил»
+
+| Шаг | Действие                                                                                   |  Время  |
+|:---:|:-------------------------------------------------------------------------------------------|:-------:|
+|  1  | Прочитал условие.                                                                          | 30 сек  |
+|  2  | Посмотрел решение.                                                                         |  1 мин  |
+|  3  | Переписал код руками.                                                                      | 2-5 мин |
+|  4  | Закрыл глаза и рассказал себе (шёпотом или в голове), как этот код работает, шаг за шагом. |  1 мин  | 
+
+---
+
+## Паттерн «Три слоя»
+
+Выученное — 2 раза
+Сыграй от начала до места, где кончается уверенность. Быстро, в темпе, без остановок.
+Цель: напомнить телу, что оно умеет.
+
+Разучиваемое — выучи следующие 1–2 строки Медленно, со счётом, по рукам (сначала одной, потом другой, потом вместе).
+Цель: продвинуться на 1 шаг вперёд.
+
+Прорабатываемое — 1 раз с листа Сыграй следующий большой кусок (страницу или больше) без остановок, в любом темпе, с
+ошибками, глядя в ноты. Цель: не дать мозгу забыть, что там дальше.
+
+| Шаг | Действие                                                                                                                                                                                 |  Время  |
+|:---:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------:|
+|  1  | Выученное — 2 раза Сыграй от начала до места, где кончается уверенность. Быстро, в темпе, без остановок. Цель: напомнить телу, что оно умеет.                                            | 30 сек  |
+|  2  | Разучиваемое — выучи следующие 1–2 строки Медленно, со счётом, по рукам (сначала одной, потом другой, потом вместе). Цель: продвинуться на 1 шаг вперёд.                                 |  1 мин  |
+|  3  | Прорабатываемое — 1 раз с листа Сыграй следующий большой кусок (страницу или больше) без остановок, в любом темпе, с ошибками, глядя в ноты. Цель: не дать мозгу забыть, что там дальше. | 2-5 мин |
+
+---
+
 ## 1. Hash Map
 
 | Level  | Name                               | Link                                                         | Retention |
 |:------:|:-----------------------------------|:-------------------------------------------------------------|:----------|
-|  Easy  | 706. Design HashMap                | https://leetcode.com/problems/design-hashmap/                | 2         |
+|  Easy  | 706. Design HashMap                | https://leetcode.com/problems/design-hashmap/                | 2,3       |
 |  Easy  | 1. Two Sum                         | https://leetcode.com/problems/two-sum/                       | 5         |
 |  Easy  | 136. Single Number                 | https://leetcode.com/problems/single-number/                 | 5         |
-| Medium | 347. Top K Frequent Elements       | https://leetcode.com/problems/top-k-frequent-elements/       | 4         |
+| Medium | 347. Top K Frequent Elements       | https://leetcode.com/problems/top-k-frequent-elements/       | 4,5       |
 | Medium | 451. Sort Characters By Frequency  | https://leetcode.com/problems/sort-characters-by-frequency/  | 5         |
 | Medium | 49. Group Anagrams                 | https://leetcode.com/problems/group-anagrams/                | 5         |
-| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3         |
+| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3       |
 | Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3         |
 | Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ |           |
 | Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ |           |

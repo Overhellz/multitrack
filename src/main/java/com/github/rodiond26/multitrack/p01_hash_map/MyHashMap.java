@@ -8,12 +8,12 @@ class MyHashMap {
     private MyLinkedList[] buckets;
 
     public MyHashMap() {
-        this.n = 991; // some large enough prime number
+        this.n = 991;
         this.buckets = new MyLinkedList[this.n];
     }
 
     public void put(int key, int value) {
-        int index = hash(key);
+        int index = index(key);
         if (buckets[index] == null) {
             buckets[index] = new MyLinkedList();
         }
@@ -21,7 +21,7 @@ class MyHashMap {
     }
 
     public int get(int key) {
-        int index = hash(key);
+        int index = index(key);
         if (buckets[index] == null) {
             buckets[index] = new MyLinkedList();
         }
@@ -29,14 +29,14 @@ class MyHashMap {
     }
 
     public void remove(int key) {
-        int index = hash(key);
+        int index = index(key);
         if (buckets[index] == null) {
             buckets[index] = new MyLinkedList();
         }
         buckets[index].remove(key);
     }
 
-    private int hash(int x) {
-        return Objects.hash(x) % this.n;
+    private int index(int value) {
+        return Objects.hash(value) % this.n;
     }
 }
