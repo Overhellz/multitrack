@@ -9,10 +9,10 @@ class Solution74 {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            int midValue = matrix[mid / cols][mid % cols]; // TODO: snippet
-            if (midValue == target) {
+            int midVal = matrix[mid / cols][mid % cols]; // TODO: snippet
+            if (midVal == target) {
                 return true;
-            } else if (midValue < target) {
+            } else if (midVal < target) {
                 left = mid + 1;
             } else {
                 right = mid - 1;

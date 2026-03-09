@@ -46,21 +46,11 @@ https://github.com/Overhellz/multitrack
 
 ## Паттерн «Три слоя»
 
-Выученное — 2 раза
-Сыграй от начала до места, где кончается уверенность. Быстро, в темпе, без остановок.
-Цель: напомнить телу, что оно умеет.
-
-Разучиваемое — выучи следующие 1–2 строки Медленно, со счётом, по рукам (сначала одной, потом другой, потом вместе).
-Цель: продвинуться на 1 шаг вперёд.
-
-Прорабатываемое — 1 раз с листа Сыграй следующий большой кусок (страницу или больше) без остановок, в любом темпе, с
-ошибками, глядя в ноты. Цель: не дать мозгу забыть, что там дальше.
-
-| Шаг | Действие                                                                                                                                                                                 |  Время  |
-|:---:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------:|
-|  1  | Выученное — 2 раза Сыграй от начала до места, где кончается уверенность. Быстро, в темпе, без остановок. Цель: напомнить телу, что оно умеет.                                            | 30 сек  |
-|  2  | Разучиваемое — выучи следующие 1–2 строки Медленно, со счётом, по рукам (сначала одной, потом другой, потом вместе). Цель: продвинуться на 1 шаг вперёд.                                 |  1 мин  |
-|  3  | Прорабатываемое — 1 раз с листа Сыграй следующий большой кусок (страницу или больше) без остановок, в любом темпе, с ошибками, глядя в ноты. Цель: не дать мозгу забыть, что там дальше. | 2-5 мин |
+| Шаг | Тип             | Цель                                                   | Действие                                                                                       |
+|:---:|:----------------|:-------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1  | Выученное       | Вспомнить, повторить.                                  | 2 раза сыграть от начала до места, до которого выучил. Быстро, в текущем темпе, без остановок. |
+|  2  | Разучиваемое    | Продвинуться на 1 шаг вперёд.                          | Выучить следующие 1–2 строки. Подход 12х12х12.                                                 |
+|  3  | Прорабатываемое | Показать мозгу, что там дальше и что дальше не сложно. | 1 раз с листа сыграть следующую часть без остановок, в любом темпе, с ошибками, глядя в ноты.  |
 
 ---
 
@@ -86,13 +76,13 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                                        | Link                                                                                   | Retention |
 |:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
-|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3,5       |
-|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2,2       |
-| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2,3       |
-| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    | 3         |
-| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
-| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
-| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3,5,4     |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2,2,3     |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2,3,4     |
+| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    | 3,3       |
+| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       | 2         |
+| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ | 2         |
+| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          | 2         |
 | Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     |           |
 
 ---
