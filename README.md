@@ -90,17 +90,17 @@ https://github.com/Overhellz/multitrack
 ## 3. Two Pointers
 
 | Level  | Name                                    | Link                                                               | Retention |
-|:------:|:----------------------------------------|:-------------------------------------------------------------------|:---------:|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      |           |
-|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    |           |
-|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ |           |
+|:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5         |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 5         |
+|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 3         |
+|  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
+|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
 | Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    |           |
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                |           |
 | Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           |           |
 |  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      |           |
 |  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            |           |
-|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  |           |
-|  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         |           |
 | Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                |           |
 | Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        |           |
 
@@ -109,7 +109,7 @@ https://github.com/Overhellz/multitrack
 ## 4. Sliding Window
 
 | Level  | Name                                                       | Link                                                                                | Retention |
-|:------:|:-----------------------------------------------------------|:------------------------------------------------------------------------------------|:---------:|
+|:------:|:-----------------------------------------------------------|:------------------------------------------------------------------------------------|:----------|
 |  Easy  | 643. Maximum Average Subarray I                            | https://leetcode.com/problems/maximum-average-subarray-i/                           |           |
 | Medium | 209. Minimum Size Subarray Sum                             | https://leetcode.com/problems/minimum-size-subarray-sum/                            |           |
 | Medium | 1004. Max Consecutive Ones III                             | https://leetcode.com/problems/max-consecutive-ones-iii/                             |           |

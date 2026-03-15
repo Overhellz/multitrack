@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p01_two_pointers;
+package com.github.rodiond26.multitrack.p03_two_pointers;
 
 class Solution88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

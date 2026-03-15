@@ -1,33 +1,25 @@
-package com.github.rodiond26.multitrack.p01_two_pointers;
+package com.github.rodiond26.multitrack.p03_two_pointers;
 
 class Solution125 {
     public boolean isPalindrome(String s) {
-        if (s == null || s.length() <= 1) {
-            return true;
-        }
-
         int left = 0;
         int right = s.length() - 1;
 
         while (left <= right) {
             if (!Character.isLetterOrDigit(s.charAt(left))) {
-                left++;
+                left += 1;
                 continue;
             }
-
             if (!Character.isLetterOrDigit(s.charAt(right))) {
-                right--;
+                right -= 1;
                 continue;
             }
-
             if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
                 return false;
             }
-
-            left++;
-            right--;
+            left += 1;
+            right -= 1;
         }
-
         return true;
     }
 }
