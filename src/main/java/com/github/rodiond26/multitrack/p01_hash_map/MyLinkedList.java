@@ -1,10 +1,10 @@
 package com.github.rodiond26.multitrack.p01_hash_map;
 
 class MyLinkedList {
-    Node head;
+    MyNode head;
 
     int get(int key) {
-        Node current = head;
+        MyNode current = head;
         while (current != null) {
             if (current.key == key) {
                 return current.value;
@@ -15,7 +15,7 @@ class MyLinkedList {
     }
 
     void put(int key, int value) {
-        Node current = head;
+        MyNode current = head;
         while (current != null) {
             if (current.key == key) {
                 current.value = value;
@@ -24,7 +24,7 @@ class MyLinkedList {
             current = current.next;
         }
 
-        head = new Node(key, value, head);
+        head = new MyNode(key, value, head);
     }
 
     void remove(int key) {
@@ -35,7 +35,7 @@ class MyLinkedList {
             head = head.next;
             return;
         }
-        Node current = head;
+        MyNode current = head;
         while (current.next != null) {
             if (current.next.key == key) {
                 current.next = current.next.next;

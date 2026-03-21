@@ -1,13 +1,13 @@
 package com.github.rodiond26.multitrack.p01_hash_map;
 
 class Node {
-    int key;
-    int value;
+    int val;
     Node next;
+    Node random;
 
-    public Node(int key, int value, Node next) {
-        this.key = key;
-        this.value = value;
-        this.next = next;
+    public Node(int val) {
+        this.val = val;
+        this.next = null;
+        this.random = null;
     }
 }

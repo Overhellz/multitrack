@@ -58,17 +58,17 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                               | Link                                                         | Retention |
 |:------:|:-----------------------------------|:-------------------------------------------------------------|:----------|
-|  Easy  | 706. Design HashMap                | https://leetcode.com/problems/design-hashmap/                | 2,3       |
+|  Easy  | 706. Design HashMap                | https://leetcode.com/problems/design-hashmap/                | 2,3,4     |
 |  Easy  | 1. Two Sum                         | https://leetcode.com/problems/two-sum/                       | 5         |
 |  Easy  | 136. Single Number                 | https://leetcode.com/problems/single-number/                 | 5         |
 | Medium | 347. Top K Frequent Elements       | https://leetcode.com/problems/top-k-frequent-elements/       | 4,5       |
 | Medium | 451. Sort Characters By Frequency  | https://leetcode.com/problems/sort-characters-by-frequency/  | 5         |
 | Medium | 49. Group Anagrams                 | https://leetcode.com/problems/group-anagrams/                | 5         |
-| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3       |
+| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3,3+    |
 | Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3         |
-| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ |           |
-| Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ |           |
-| Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       |           |
+| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 2+        |
+| Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ | 2         |
+| Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 2+        |
 
 ---
 

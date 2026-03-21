@@ -10,19 +10,18 @@ class Solution128 {
             numSet.add(num);
         }
 
-        int maxLength = 0;
+        int maxLen = 0;
 
         for (int num : numSet) {
             if (!numSet.contains(num - 1)) {
                 int currentNum = num;
-                int length = 1;
-                while (numSet.contains(currentNum + 1)) {
-                    currentNum += 1;
-                    length += 1;
+                int len = 1;
+                while (numSet.contains(currentNum + len)) {
+                    len++;
                 }
-                maxLength = Math.max(maxLength, length);
+                maxLen = Math.max(maxLen, len);
             }
         }
-        return maxLength;
+        return maxLen;
     }
 }
