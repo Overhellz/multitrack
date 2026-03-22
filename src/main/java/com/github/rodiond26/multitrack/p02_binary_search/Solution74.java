@@ -8,14 +8,15 @@ class Solution74 {
         int right = rows * cols - 1;
 
         while (left <= right) {
-            int mid = left + (right - left) / 2;
-            int midVal = matrix[mid / cols][mid % cols]; // TODO: snippet
-            if (midVal == target) {
+            int middle = left + (right - left) / 2;
+            int middleValue = matrix[middle / cols][middle % cols];
+
+            if (middleValue == target) {
                 return true;
-            } else if (midVal < target) {
-                left = mid + 1;
+            } else if (middleValue > target) {
+                right = middle - 1;
             } else {
-                right = mid - 1;
+                left = middle + 1;
             }
         }
         return false;
