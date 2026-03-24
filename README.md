@@ -131,13 +131,13 @@ https://github.com/Overhellz/multitrack
 |  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+        |
 |  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3         |
 | Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2         |
+| Medium | 974. Subarray Sums Divisible by K    | https://leetcode.com/problems/subarray-sums-divisible-by-k/   | 2         |
 | Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        |           |
 | Medium | 238. Product of Array Except Self    | https://leetcode.com/problems/product-of-array-except-self/   |           |
 | Medium | 1109. Corporate Flight Bookings      | https://leetcode.com/problems/corporate-flight-bookings/      |           |
 | Medium | 304. Range Sum Query 2D - Immutable  | https://leetcode.com/problems/range-sum-query-2d-immutable/   |           |
 | Medium | 1314. Matrix Block Sum               | https://leetcode.com/problems/matrix-block-sum/               |           |
 | Medium | 525. Contiguous Array                | https://leetcode.com/problems/contiguous-array/               |           |
-| Medium | 974. Subarray Sums Divisible by K    | https://leetcode.com/problems/subarray-sums-divisible-by-k/   |           |
 | Medium | 1248. Count Number of Nice Subarrays | https://leetcode.com/problems/count-number-of-nice-subarrays/ |           |
 
 ---
@@ -145,7 +145,7 @@ https://github.com/Overhellz/multitrack
 ## 6. Stack, Queue
 
 | Level  | Name                                           | Link                                                                    | Retention |
-|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:---------:|
+|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
 |  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        |           |
 |  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |           |
 |  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   |           |
@@ -163,7 +163,7 @@ https://github.com/Overhellz/multitrack
 ## 7. Linked List
 
 | Level  | Name                                 | Link                                                            | Retention |
-|:------:|:-------------------------------------|:----------------------------------------------------------------|:---------:|
+|:------:|:-------------------------------------|:----------------------------------------------------------------|:----------|
 | Medium | 707. Design Linked List              | https://leetcode.com/problems/design-linked-list/               |           |
 |  Easy  | 206. Reverse Linked List             | https://leetcode.com/problems/reverse-linked-list/              |           |
 | Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        |           |
@@ -183,24 +183,24 @@ https://github.com/Overhellz/multitrack
 
 ## 8. Intervals
 
-| Level  | Name                                                 | Link                                                                          |
-|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|
-| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |
-| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |
-| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |
-| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |
-| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |
-| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |
-| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |
-| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |
-| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |
+| Level  | Name                                                 | Link                                                                          | Retention |
+|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |           |
+| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |           |
+| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
+| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
+| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
+| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
+| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
+| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
+| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
 
 ---
 
 ## 9. Binary Tree (DFS)
 
 | Level  | Name                              | Link                                                        | Retention |
-|:------:|:----------------------------------|:------------------------------------------------------------|:---------:|
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
 |  Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ |           |
 |  Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           |           |
 |  Easy  | 112                               |                                                             |           |
@@ -218,7 +218,7 @@ https://github.com/Overhellz/multitrack
 ## 10. Binary Search Tree
 
 | Level  | Name                                            | Link                                                                      | Retention |
-|:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:---------:|
+|:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----------|
 |  Easy  | 700. Search in a Binary Search Tree             | https://leetcode.com/problems/search-in-a-binary-search-tree/             |           |
 |  Easy  | 108. Convert Sorted Array to Binary Search Tree | https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/ |           |
 | Medium | 98. Validate Binary Search Tree                 | https://leetcode.com/problems/validate-binary-search-tree/                |           |
@@ -235,7 +235,7 @@ https://github.com/Overhellz/multitrack
 ## 11. Binary Tree (BFS)
 
 | Level  | Name | Link | Retention |
-|:------:|:-----|:-----|:---------:|
+|:------:|:-----|:-----|:----------|
 |  Easy  | 637  |      |           |
 | Medium | 102  |      |           |
 | Medium | 103  |      |           |
@@ -252,7 +252,7 @@ https://github.com/Overhellz/multitrack
 ## 12. Backtracking
 
 | Level | Name | Link | Retention |
-|:-----:|:-----|:-----|:---------:|
+|:-----:|:-----|:-----|:----------|
 |       | 784  |      |           |
 |       | 257  |      |           |
 |       | 78   |      |           |
