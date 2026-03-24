@@ -127,10 +127,10 @@ https://github.com/Overhellz/multitrack
 ## 5. Prefix Sum
 
 | Level  | Name                                 | Link                                                          | Retention |
-|:------:|:-------------------------------------|:--------------------------------------------------------------|:---------:|
-|  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      |           |
-|  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               |           |
-| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          |           |
+|:------:|:-------------------------------------|:--------------------------------------------------------------|:----------|
+|  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+        |
+|  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3         |
+| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2         |
 | Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        |           |
 | Medium | 238. Product of Array Except Self    | https://leetcode.com/problems/product-of-array-except-self/   |           |
 | Medium | 1109. Corporate Flight Bookings      | https://leetcode.com/problems/corporate-flight-bookings/      |           |
