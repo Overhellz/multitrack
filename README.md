@@ -131,14 +131,14 @@ https://github.com/Overhellz/multitrack
 |  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+        |
 |  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3         |
 | Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2         |
+| Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        | 2+        |
+| Medium | 525. Contiguous Array                | https://leetcode.com/problems/contiguous-array/               | 2         |
 | Medium | 974. Subarray Sums Divisible by K    | https://leetcode.com/problems/subarray-sums-divisible-by-k/   | 2         |
-| Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        |           |
+| Medium | 1248. Count Number of Nice Subarrays | https://leetcode.com/problems/count-number-of-nice-subarrays/ | 2+        |
 | Medium | 238. Product of Array Except Self    | https://leetcode.com/problems/product-of-array-except-self/   |           |
-| Medium | 1109. Corporate Flight Bookings      | https://leetcode.com/problems/corporate-flight-bookings/      |           |
 | Medium | 304. Range Sum Query 2D - Immutable  | https://leetcode.com/problems/range-sum-query-2d-immutable/   |           |
 | Medium | 1314. Matrix Block Sum               | https://leetcode.com/problems/matrix-block-sum/               |           |
-| Medium | 525. Contiguous Array                | https://leetcode.com/problems/contiguous-array/               |           |
-| Medium | 1248. Count Number of Nice Subarrays | https://leetcode.com/problems/count-number-of-nice-subarrays/ |           |
+| Medium | 1109. Corporate Flight Bookings      | https://leetcode.com/problems/corporate-flight-bookings/      |           |
 
 ---
 

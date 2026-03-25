@@ -3,14 +3,21 @@ package com.github.rodiond26.multitrack.p05_prefix_sum;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution560 {
-    public int subarraySum(int[] nums, int k) {
+class Solution1248 {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int[] arr = new int[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+            arr[i] = nums[i] % 2;
+        }
+
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
 
-        int count = 0;
         int sum = 0;
-        for (int num : nums) {
+        int count = 0;
+
+        for (int num : arr) {
             sum += num;
             count += map.getOrDefault(sum - k, 0);
             map.put(sum, map.getOrDefault(sum, 0) + 1);
