@@ -2,23 +2,23 @@ package com.github.rodiond26.multitrack.p05_prefix_sum;
 
 class NumArray {
 
-    private final int[] prefixSum;
+    private final int[] sum;
 
     public NumArray(int[] nums) {
-        prefixSum = new int[nums.length];
-        prefixSum[0] = nums[0];
+        sum = new int[nums.length];
+        sum[0] = nums[0];
 
-        for (int i = 1; i < prefixSum.length; i++) {
-            prefixSum[i] = prefixSum[i - 1] + nums[i];
+        for (int i = 1; i < nums.length; i++) {
+            sum[i] = sum[i - 1] + nums[i];
         }
     }
 
     public int sumRange(int left, int right) {
         if (left == 0) {
-            return prefixSum[right];
+            return sum[right];
         }
 
-        return prefixSum[right] - prefixSum[left - 1];
+        return sum[right] - sum[left - 1];
     }
 }
 

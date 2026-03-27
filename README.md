@@ -44,16 +44,6 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## Паттерн «Три слоя»
-
-| Шаг | Тип             | Цель                                                   | Действие                                                                                       |
-|:---:|:----------------|:-------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-|  1  | Выученное       | Вспомнить, повторить.                                  | 2 раза сыграть от начала до места, до которого выучил. Быстро, в текущем темпе, без остановок. |
-|  2  | Разучиваемое    | Продвинуться на 1 шаг вперёд.                          | Выучить следующие 1–2 строки. Подход 12х12х12.                                                 |
-|  3  | Прорабатываемое | Показать мозгу, что там дальше и что дальше не сложно. | 1 раз с листа сыграть следующую часть без остановок, в любом темпе, с ошибками, глядя в ноты.  |
-
----
-
 ## 1. Hash Map
 
 | Level  | Name                               | Link                                                         | Retention |
@@ -69,6 +59,8 @@ https://github.com/Overhellz/multitrack
 | Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 2+        |
 | Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ | 2         |
 | Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 2+        |
+
+Рекомендация: Добавьте 49 (Group Anagrams)
 
 ---
 
@@ -104,6 +96,7 @@ https://github.com/Overhellz/multitrack
 | Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                |           |
 | Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        |           |
 
+Рекомендация: 15 (3Sum) и 11 (Container With Most Water) — классика, обязательны к проработке.
 ---
 
 ## 4. Sliding Window
@@ -122,15 +115,16 @@ https://github.com/Overhellz/multitrack
 | Medium | 713. Subarray Product Less Than K                          | https://leetcode.com/problems/subarray-product-less-than-k/                         |           |
 | Medium | 1358. Number of Substrings Containing All Three Characters | https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/ |           |
 
+Рекомендация: Добавьте в подготовку 3, 209, 424, 76 — они часто встречаются.
 ---
 
 ## 5. Prefix Sum
 
 | Level  | Name                                 | Link                                                          | Retention |
 |:------:|:-------------------------------------|:--------------------------------------------------------------|:----------|
-|  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+        |
-|  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3         |
-| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2         |
+|  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+,5      |
+|  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3,4+      |
+| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2,4+      |
 | Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        | 2+        |
 | Medium | 525. Contiguous Array                | https://leetcode.com/problems/contiguous-array/               | 2         |
 | Medium | 974. Subarray Sums Divisible by K    | https://leetcode.com/problems/subarray-sums-divisible-by-k/   | 2         |
@@ -158,6 +152,7 @@ https://github.com/Overhellz/multitrack
 | Medium | 227. Basic Calculator II                       | https://leetcode.com/problems/basic-calculator-ii/                      |           |
 | Medium | 341. Flatten Nested List Iterator              | https://leetcode.com/problems/flatten-nested-list-iterator/             |           |
 
+Рекомендация: 20 (Valid Parentheses) и 155 (Min Stack) — база. 253 (Meeting Rooms II) — важная задача на интервалы.
 ---
 
 ## 7. Linked List
@@ -195,6 +190,7 @@ https://github.com/Overhellz/multitrack
 | Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
 | Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
 
+56 (Merge Intervals) и 253 (Meeting Rooms II)
 ---
 
 ## 9. Binary Tree (DFS)
@@ -213,6 +209,8 @@ https://github.com/Overhellz/multitrack
 | Medium | 129                               |                                                             |           |
 | Medium | 437                               |                                                             |           |
 
+Рекомендация: 543 (Diameter), 236 (LCA), 124 (Max Path Sum) — топ задач.
+
 ---
 
 ## 10. Binary Search Tree
@@ -230,7 +228,7 @@ https://github.com/Overhellz/multitrack
 | Medium | 95                                              |                                                                           |           |
 | Medium | 538                                             |                                                                           |           |
 
----
+Рекомендация: 98 (Validate BST) и 230 (Kth Smallest) — классика.---
 
 ## 11. Binary Tree (BFS)
 
@@ -246,6 +244,8 @@ https://github.com/Overhellz/multitrack
 | Medium | 116  |      |           |
 | Medium | 987  |      |           |
 | Medium | 513  |      |           |
+
+екомендация: 102 (Level Order) и 199 (Right Side View) — база.
 
 ---
 
@@ -263,5 +263,7 @@ https://github.com/Overhellz/multitrack
 |       | 79   |      |           |
 |       | 90   |      |           |
 |       | 77   |      |           |
+
+Рекомендация: 46 (Permutations), 78 (Subsets), 39 (Combination Sum) — база.
 
 ---
