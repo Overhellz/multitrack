@@ -83,20 +83,46 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                    | Link                                                               | Retention |
 |:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5         |
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5,5       |
 |  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 5         |
-|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 3         |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 5         |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4         |
+| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 3         |
+| Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        |           |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           |           |
+|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            |           |
+|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 3,3       |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
 |  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    |           |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                |           |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           |           |
 |  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      |           |
-|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            |           |
-| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                |           |
-| Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        |           |
 
-Рекомендация: 15 (3Sum) и 11 (Container With Most Water) — классика, обязательны к проработке.
+Два указателя с разных концов
+├── 344. Reverse String
+│ │
+│ └── 125. Valid Palindrome
+│
+├── 167. Two Sum II
+│ │
+│ ├── 15. 3Sum
+│ │ │
+│ │ ├── 18. 4Sum
+│ │ └── 16. 3Sum Closest
+│ │
+│ └── 11. Container With Most Water
+│
+└── 844. Backspace String Compare (с конца)
+
+Два указателя в одном направлении
+├── 26. Remove Duplicates
+└── 283. Move Zeroes
+
+Слияние
+└── 88. Merge Sorted Array
+
+Последовательности
+└── 392. Is Subsequence
+
+
 ---
 
 ## 4. Sliding Window
@@ -190,7 +216,6 @@ https://github.com/Overhellz/multitrack
 | Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
 | Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
 
-56 (Merge Intervals) и 253 (Meeting Rooms II)
 ---
 
 ## 9. Binary Tree (DFS)
@@ -228,8 +253,6 @@ https://github.com/Overhellz/multitrack
 | Medium | 95                                              |                                                                           |           |
 | Medium | 538                                             |                                                                           |           |
 
-Рекомендация: 98 (Validate BST) и 230 (Kth Smallest) — классика.---
-
 ## 11. Binary Tree (BFS)
 
 | Level  | Name | Link | Retention |
@@ -244,8 +267,6 @@ https://github.com/Overhellz/multitrack
 | Medium | 116  |      |           |
 | Medium | 987  |      |           |
 | Medium | 513  |      |           |
-
-екомендация: 102 (Level Order) и 199 (Right Side View) — база.
 
 ---
 
@@ -263,7 +284,5 @@ https://github.com/Overhellz/multitrack
 |       | 79   |      |           |
 |       | 90   |      |           |
 |       | 77   |      |           |
-
-Рекомендация: 46 (Permutations), 78 (Subsets), 39 (Combination Sum) — база.
 
 ---

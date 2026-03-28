@@ -1,19 +1,18 @@
 package com.github.rodiond26.multitrack.p03_two_pointers;
 
-public class Solution26 {
+class Solution26 {
     public int removeDuplicates(int[] nums) {
-        if (nums.length <= 1) {
-            return nums.length;
+        if (nums.length == 0) {
+            return 0;
         }
 
-        int left = 0;
-        for (int right = 1; right < nums.length; right++) {
-            if (nums[right] == nums[left]) {
-                continue;
+        int p = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != nums[p]) {
+                p++;
+                nums[p] = nums[i];
             }
-            left++;
-            nums[left] = nums[right];
         }
-        return left + 1;
+        return p + 1;
     }
 }
