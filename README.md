@@ -86,42 +86,16 @@ https://github.com/Overhellz/multitrack
 |  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5,5       |
 |  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 5         |
 | Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 5         |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4         |
-| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 3         |
-| Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        |           |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           |           |
-|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            |           |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4,3,5     |
+| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 3,4       |
+| Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        | 3         |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | 5         |
+|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | 4         |
 |  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 3,3       |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
 |  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
-|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      |           |
-
-Два указателя с разных концов
-├── 344. Reverse String
-│ │
-│ └── 125. Valid Palindrome
-│
-├── 167. Two Sum II
-│ │
-│ ├── 15. 3Sum
-│ │ │
-│ │ ├── 18. 4Sum
-│ │ └── 16. 3Sum Closest
-│ │
-│ └── 11. Container With Most Water
-│
-└── 844. Backspace String Compare (с конца)
-
-Два указателя в одном направлении
-├── 26. Remove Duplicates
-└── 283. Move Zeroes
-
-Слияние
-└── 88. Merge Sorted Array
-
-Последовательности
-└── 392. Is Subsequence
-
+|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | 3         |
+|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/           | 4         |
 
 ---
 

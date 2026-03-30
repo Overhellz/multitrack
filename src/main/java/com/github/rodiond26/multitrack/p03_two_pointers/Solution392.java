@@ -1,23 +1,21 @@
-package com.github.rodiond26.multitrack.p01_two_pointers;
+package com.github.rodiond26.multitrack.p03_two_pointers;
 
 class Solution392 {
     public boolean isSubsequence(String s, String t) {
-
-        if (s.isEmpty()) {
+        if (s == null || s.isEmpty()) {
             return true;
         }
 
-        int first = 0;
+        int p = 0;
 
         for (int i = 0; i < t.length(); i++) {
-            if (s.charAt(first) == t.charAt(i)) {
-                first += 1;
-                if (first >= s.length()) {
+            if (t.charAt(i) == s.charAt(p)) {
+                p++;
+                if (p == s.length()) {
                     return true;
                 }
             }
         }
-
         return false;
     }
 }
