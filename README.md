@@ -4,20 +4,20 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-|  # | Theme              | Tasks                                                                          |
-|---:|:-------------------|:-------------------------------------------------------------------------------|
-|  1 | Hash Map           | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
-|  2 | Binary Search      | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
-|  3 | Two Pointers       | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
-|  4 | Sliding Window     | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
-|  5 | Prefix Sum         | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
-|  6 | Stack, Queue       | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
-|  7 | Linked List        | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
-|  8 | Intervals          | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
-|  9 | Binary Tree (DFS)  | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
-| 10 | Binary Search Tree | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
-| 11 | Binary Tree (BFS)  | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
-| 12 | Backtracking       | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
+|  # | Theme                    | Tasks                                                                          |
+|---:|:-------------------------|:-------------------------------------------------------------------------------|
+|  1 | Hash Map                 | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |
+|  2 | Binary Search            | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |
+|  3 | Two Pointers             | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |
+|  4 | Intervals                | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |
+|  5 | Sliding Window           | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |
+|  6 | Prefix Sum               | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |
+|  7 | Stack, Queue             | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |
+|  8 | Linked List              | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |
+|  9 | Binary Tree (DFS)        | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |
+| 10 | Binary Search Tree (BST) | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |
+| 11 | Binary Tree (BFS)        | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |
+| 12 | Backtracking             | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |
 
 ---
 
@@ -97,6 +97,41 @@ https://github.com/Overhellz/multitrack
 
 ---
 
+## 4. Intervals
+
+| Level  | Name                                                 | Link                                                                          | Retention |
+|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                | 5         |
+| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                | 3-        |
+| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
+| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
+| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
+| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
+| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
+| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
+| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
+
+Уровень 1	
+56. Merge Intervals	Medium	Сортировка по началу, слияние
+57. Insert Interval	Medium	Вставка в отсортированный список
+    Уровень 2
+252. Meeting Rooms	Easy	Сортировка, проверка пересечения
+253. Meeting Rooms II	Medium	Min-heap или два указателя
+2406. Divide Intervals...	Medium	Аналог Meeting Rooms II
+435. Non-overlapping...	Medium	Сортировка по концу (Greedy)
+452. Burst Balloons	Medium	Сортировка по концу (Greedy)
+     Уровень 3	
+986. Interval List...	Medium	Два указателя на двух списках
+763. Partition Labels	Medium	Преобразование строки в интервалы
+1094. Car Pooling	Medium	Diff array (разностный массив)
+      Уровень 4	
+1288. Remove Covered...	Medium	Сортировка + отслеживание максимума
+436. Find Right Interval	Medium	Бинарный поиск
+729/731. My Calendar	Medium	Поддержка отсортированной структуры
+
+
+---
+
 ## 4. Sliding Window
 
 | Level  | Name                                                       | Link                                                                                | Retention |
@@ -113,7 +148,33 @@ https://github.com/Overhellz/multitrack
 | Medium | 713. Subarray Product Less Than K                          | https://leetcode.com/problems/subarray-product-less-than-k/                         |           |
 | Medium | 1358. Number of Substrings Containing All Three Characters | https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/ |           |
 
-Рекомендация: Добавьте в подготовку 3, 209, 424, 76 — они часто встречаются.
+Sliding Window
+│
+├── Фиксированное окно
+│ └── 643. Maximum Average Subarray I
+│
+├── Переменное окно (минимальная длина)
+│ └── 209. Minimum Size Subarray Sum
+│
+├── Переменное окно (максимальная длина)
+│ ├── 1004. Max Consecutive Ones III (условие на количество нулей)
+│ ├── 1493. Longest Subarray of 1's After Deleting One Element (вариация)
+│ └── 904. Fruit Into Baskets (условие на уникальность)
+│
+├── Строковые задачи
+│ ├── 3. Longest Substring Without Repeating Characters
+│ └── 424. Longest Repeating Character Replacement
+│
+├── Анаграммы / перестановки (фиксированное окно + частоты)
+│ ├── 567. Permutation in String
+│ └── 438. Find All Anagrams in a String
+│
+└── Произведение и подсчёты
+├── 713. Subarray Product Less Than K
+└── 1358. Number of Substrings Containing All Three Characters
+└── 76. Minimum Window Substring
+└── 30. Substring with Concatenation of All Words
+
 ---
 
 ## 5. Prefix Sum
@@ -170,22 +231,6 @@ https://github.com/Overhellz/multitrack
 | Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             |           |
 | Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |           |
 | Medium | 25                                   |                                                                 |           |
-
----
-
-## 8. Intervals
-
-| Level  | Name                                                 | Link                                                                          | Retention |
-|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
-| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |           |
-| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |           |
-| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
-| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
-| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
-| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
-| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
-| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
-| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
 
 ---
 
