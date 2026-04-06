@@ -1,23 +1,29 @@
 package com.github.rodiond26.multitrack.p04_intervals;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 class Solution56 {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (arr1, arr2) -> arr1[0] - arr2[0]);
+        Arrays.sort(intervals, Comparator.comparingInt(arr -> arr[0]));
         List<int[]> result = new ArrayList<>();
-        result.add(new int[]{intervals[0][0], intervals[0][1]});
+        result.add(intervals[0]);
+
         for (int i = 1; i < intervals.length; i++) {
             int[] last = result.getLast();
-            int start = intervals[i][0];
-            int end = intervals[i][1];
+            int lastEnd = last[1];
 
-            if (start <= last[1]) {
-                if (end > last[1]) {
-                    last[1] = end;
-                }
+            int[] current = intervals[i];
+            int currentStart = current[0];
+            int currentEnd = current[1];
+
+            if (currentStart <= lastEnd) {
+                currentEnd = Math.max(currentEnd, lastEnd);
+                last[1] = currentEnd;
             } else {
-                result.add(intervals[i]);
+                result.add(current);
             }
         }
 

@@ -99,36 +99,20 @@ https://github.com/Overhellz/multitrack
 
 ## 4. Intervals
 
-| Level  | Name                                                 | Link                                                                          | Retention |
-|:------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
-| Medium | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                | 5         |
-| Medium | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                | 3-        |
-| Medium | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
-| Medium | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
-| Medium | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
-| Medium | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
-| Medium | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
-| Medium | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
-| Medium | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
-
-Уровень 1	
-56. Merge Intervals	Medium	Сортировка по началу, слияние
-57. Insert Interval	Medium	Вставка в отсортированный список
-    Уровень 2
-252. Meeting Rooms	Easy	Сортировка, проверка пересечения
-253. Meeting Rooms II	Medium	Min-heap или два указателя
-2406. Divide Intervals...	Medium	Аналог Meeting Rooms II
-435. Non-overlapping...	Medium	Сортировка по концу (Greedy)
-452. Burst Balloons	Medium	Сортировка по концу (Greedy)
-     Уровень 3	
-986. Interval List...	Medium	Два указателя на двух списках
-763. Partition Labels	Medium	Преобразование строки в интервалы
-1094. Car Pooling	Medium	Diff array (разностный массив)
-      Уровень 4	
-1288. Remove Covered...	Medium	Сортировка + отслеживание максимума
-436. Find Right Interval	Medium	Бинарный поиск
-729/731. My Calendar	Medium	Поддержка отсортированной структуры
-
+|   Level   | Name                                                 | Link                                                                          | Retention |
+|:---------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+|  Medium   | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                | 5,5-      |
+|  Medium   | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                | 3-,3,3    |
+|  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      | 2,3-      |
+|  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     | 2         |
+|  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    | 2         |
+| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 2         |
+|  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ | 3,5       |
+|  Medium   | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
+|  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
+|  Medium   | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
+|  Medium   | 729. My Calendar I                                   | https://leetcode.com/problems/my-calendar-i/                                  |           |
+|  Medium   | 731. My Calendar II                                  | https://leetcode.com/problems/my-calendar-ii/                                 |           |
 
 ---
 
