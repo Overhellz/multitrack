@@ -5,10 +5,6 @@ import java.util.Map;
 
 class Solution138 {
     public Node copyRandomList(Node head) {
-        if (head == null) {
-            return null;
-        }
-
         Map<Node, Node> map = new HashMap<>();
 
         Node current = head;
@@ -19,9 +15,8 @@ class Solution138 {
 
         current = head;
         while (current != null) {
-            Node copy = map.get(current);
-            copy.next = map.get(current.next);
-            copy.random = map.get(current.random);
+            map.get(current).next = map.get(current.next);
+            map.get(current).random = map.get(current.random);
             current = current.next;
         }
 

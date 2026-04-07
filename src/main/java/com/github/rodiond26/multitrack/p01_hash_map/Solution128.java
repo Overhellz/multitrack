@@ -5,18 +5,17 @@ import java.util.Set;
 
 class Solution128 {
     public int longestConsecutive(int[] nums) {
-        Set<Integer> numSet = new HashSet<>();
+        Set<Integer> set = new HashSet<>();
         for (int num : nums) {
-            numSet.add(num);
+            set.add(num);
         }
-
         int maxLen = 0;
 
-        for (int num : numSet) {
-            if (!numSet.contains(num - 1)) {
-                int currentNum = num;
+        for (Integer num : set) {
+            if (!set.contains(num - 1)) {
                 int len = 1;
-                while (numSet.contains(currentNum + len)) {
+
+                while (set.contains(num + len)) {
                     len++;
                 }
                 maxLen = Math.max(maxLen, len);

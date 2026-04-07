@@ -54,11 +54,11 @@ https://github.com/Overhellz/multitrack
 | Medium | 347. Top K Frequent Elements       | https://leetcode.com/problems/top-k-frequent-elements/       | 4,5       |
 | Medium | 451. Sort Characters By Frequency  | https://leetcode.com/problems/sort-characters-by-frequency/  | 5         |
 | Medium | 49. Group Anagrams                 | https://leetcode.com/problems/group-anagrams/                | 5         |
-| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3,3+    |
+| Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3,3+,5  |
 | Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3         |
-| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 2+        |
+| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 2+,5      |
 | Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ | 2         |
-| Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 2+        |
+| Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 2+,3      |
 
 ---
 
@@ -109,8 +109,8 @@ https://github.com/Overhellz/multitrack
 | Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 2         |
 |  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ | 3,5       |
 |  Medium   | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
-|  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
-|  Medium   | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            |           |
+|  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       | 2         |
+|  Medium   | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            | .         |
 |  Medium   | 729. My Calendar I                                   | https://leetcode.com/problems/my-calendar-i/                                  |           |
 |  Medium   | 731. My Calendar II                                  | https://leetcode.com/problems/my-calendar-ii/                                 |           |
 
