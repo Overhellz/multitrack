@@ -55,7 +55,7 @@ https://github.com/Overhellz/multitrack
 | Medium | 451. Sort Characters By Frequency  | https://leetcode.com/problems/sort-characters-by-frequency/  | 5         |
 | Medium | 49. Group Anagrams                 | https://leetcode.com/problems/group-anagrams/                | 5         |
 | Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 3,3,3+,5  |
-| Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3         |
+| Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3,3       |
 | Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 2+,5      |
 | Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ | 2         |
 | Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 2+,3      |
