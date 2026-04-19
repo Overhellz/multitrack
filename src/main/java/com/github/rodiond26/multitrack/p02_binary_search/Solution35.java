@@ -6,11 +6,11 @@ class Solution35 {
         int right = nums.length;
 
         while (left < right) {
-            int middle = left + (right - left) / 2;
-            if (nums[middle] >= target) {
-                right = middle;
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) {
+                left = mid + 1;
             } else {
-                left = middle + 1;
+                right = mid;
             }
         }
         return left;
