@@ -45,10 +45,6 @@ https://github.com/Overhellz/multitrack
 | Medium | 128. Longest Consecutive Sequence  | https://leetcode.com/problems/longest-consecutive-sequence/  | 5-        |
 | Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | 5         |
 | Medium | 454. 4Sum II                       | https://leetcode.com/problems/4sum-ii/                       | 5         |
-|        |                                    |                                                              |           |
-|  Easy  | 706. Design HashMap                | https://leetcode.com/problems/design-hashmap/                | 2,3,4     |
-| Medium | 535. Encode and Decode TinyURL     | https://leetcode.com/problems/encode-and-decode-tinyurl/     | 3,3       |
-| Medium | 166. Fraction to Recurring Decimal | https://leetcode.com/problems/fraction-to-recurring-decimal/ | 2         |
 
 ---
 
