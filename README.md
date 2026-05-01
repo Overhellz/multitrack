@@ -50,16 +50,16 @@ https://github.com/Overhellz/multitrack
 
 ## 2. Binary Search
 
-| Level  | Name                                                        | Link                                                                                   | Retention  |
-|:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:-----------|
-|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 3,5,4,5,4  |
-|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 2,2,3,3,3+ |
-| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ | 2          |
-| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 2,3,4,4    |
-| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    | 3,3,3      |
-| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          | 2,2        |
-| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       | 2          |
-| Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     | 2          |
+| Level  | Name                                                        | Link                                                                                   | Retention |
+|:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           | 5         |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  | 3         |
+| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ | 2         |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      | 3         |
+| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    | 2         |
+| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          | 2         |
+| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       | 2         |
+| Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     | 2         |
 
 ---
 

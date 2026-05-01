@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p02_binary_search;
+package com.github.rodiond26.multitrack.finals.p02_binary_search;
 
 class Solution74 {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -8,15 +8,14 @@ class Solution74 {
         int right = rows * cols - 1;
 
         while (left <= right) {
-            int middle = left + (right - left) / 2;
-            int middleValue = matrix[middle / cols][middle % cols];
-
-            if (middleValue == target) {
+            int mid = left + (right - left) / 2;
+            int val = matrix[mid / cols][mid % cols];
+            if (val == target) {
                 return true;
-            } else if (middleValue > target) {
-                right = middle - 1;
+            } else if (val > target) {
+                right = mid - 1;
             } else {
-                left = middle + 1;
+                left = mid + 1;
             }
         }
         return false;

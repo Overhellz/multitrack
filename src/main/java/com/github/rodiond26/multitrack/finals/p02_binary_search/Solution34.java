@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p02_binary_search;
+package com.github.rodiond26.multitrack.finals.p02_binary_search;
 
 class Solution34 {
     public int[] searchRange(int[] nums, int target) {
@@ -27,7 +27,7 @@ class Solution34 {
         }
         int second = right;
 
-        if (first > second || first >= nums.length || nums[first] != target) {
+        if (first > second || first > nums.length || nums[first] != target) {
             return new int[]{-1, -1};
         }
 

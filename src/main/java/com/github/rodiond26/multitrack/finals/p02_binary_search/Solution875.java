@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p02_binary_search;
+package com.github.rodiond26.multitrack.finals.p02_binary_search;
 
 class Solution875 {
     public int minEatingSpeed(int[] piles, int h) {
@@ -18,10 +18,10 @@ class Solution875 {
     }
 
     private boolean canEatAllBananas(int[] piles, int speed, int h) {
-        int hoursNeeded = 0;
+        int hours = 0;
         for (int pile : piles) {
-            hoursNeeded = hoursNeeded + (pile - 1) / speed + 1;
-            if (hoursNeeded > h) {
+            hours = hours + (pile - 1) / speed + 1;
+            if (hours > h) {
                 return false;
             }
         }
@@ -29,10 +29,10 @@ class Solution875 {
     }
 
     private int getMaxPile(int[] piles) {
-        int max = 0;
+        int maxPile = piles[0];
         for (int pile : piles) {
-            max = Math.max(max, pile);
+            maxPile = Math.max(maxPile, pile);
         }
-        return max;
+        return maxPile;
     }
 }

@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p02_binary_search;
+package com.github.rodiond26.multitrack.finals.p02_binary_search;
 
 class Solution162 {
     public int findPeakElement(int[] nums) {
@@ -7,7 +7,6 @@ class Solution162 {
 
         while (left < right) {
             int mid = left + (right - left) / 2;
-
             if (nums[mid] > nums[mid + 1]) {
                 right = mid;
             } else {

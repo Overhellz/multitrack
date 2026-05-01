@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p02_binary_search;
+package com.github.rodiond26.multitrack.finals.p02_binary_search;
 
 class Solution153 {
     public int findMin(int[] nums) {
@@ -6,11 +6,11 @@ class Solution153 {
         int right = nums.length - 1;
 
         while (left < right) {
-            int middle = left + (right - left) / 2;
-            if (nums[middle] > nums[right]) {
-                left = middle + 1;
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
             } else {
-                right = middle;
+                right = mid;
             }
         }
         return nums[left];
