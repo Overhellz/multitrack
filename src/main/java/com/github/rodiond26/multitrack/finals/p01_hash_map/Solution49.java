@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p01_hash_map;
+package com.github.rodiond26.multitrack.finals.p01_hash_map;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ class Solution49 {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<Integer, List<String>> map = new HashMap<>();
         for (String str : strs) {
-            int hash = hash(str);
+            int hash = hashByCharCount(str);
             if (!map.containsKey(hash)) {
                 map.put(hash, new ArrayList<>());
             }
@@ -15,12 +15,11 @@ class Solution49 {
         return map.values().stream().toList();
     }
 
-    // TODO: snippet
-    public int hash(String str) {
-        int[] counts = new int[26];
-        for (char c : str.toCharArray()) {
-            counts[c - 'a']++;
+    private int hashByCharCount(String str) {
+        int[] count = new int[26];
+        for (int i = 0; i < str.length(); i++) {
+            count[str.charAt(i) - 'a']++;
         }
-        return Arrays.hashCode(counts);
+        return Arrays.hashCode(count);
     }
 }

@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p01_hash_map;
+package com.github.rodiond26.multitrack.finals.p01_hash_map;
 
 class Node {
     int val;
