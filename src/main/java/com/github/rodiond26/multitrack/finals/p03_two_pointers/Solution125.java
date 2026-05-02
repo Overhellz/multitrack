@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p03_two_pointers;
+package com.github.rodiond26.multitrack.finals.p03_two_pointers;
 
 class Solution125 {
     public boolean isPalindrome(String s) {
@@ -7,18 +7,18 @@ class Solution125 {
 
         while (left <= right) {
             if (!Character.isLetterOrDigit(s.charAt(left))) {
-                left += 1;
+                left++;
                 continue;
             }
             if (!Character.isLetterOrDigit(s.charAt(right))) {
-                right -= 1;
+                right--;
                 continue;
             }
             if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
                 return false;
             }
-            left += 1;
-            right -= 1;
+            left++;
+            right--;
         }
         return true;
     }

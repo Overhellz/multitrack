@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p03_two_pointers;
+package com.github.rodiond26.multitrack.finals.p03_two_pointers;
 
 class Solution167 {
     public int[] twoSum(int[] numbers, int target) {
@@ -7,15 +7,14 @@ class Solution167 {
 
         while (left < right) {
             int sum = numbers[left] + numbers[right];
-
             if (sum == target) {
                 return new int[]{left + 1, right + 1};
-            } else if (sum < target) {
-                left++;
-            } else {
+            } else if (sum > target) {
                 right--;
+            } else {
+                left++;
             }
         }
-        throw new RuntimeException();
+        return null;
     }
 }

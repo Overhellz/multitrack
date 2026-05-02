@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p03_two_pointers;
+package com.github.rodiond26.multitrack.finals.p03_two_pointers;
 
 class Solution344 {
     public void reverseString(char[] s) {
@@ -9,7 +9,6 @@ class Solution344 {
             char temp = s[left];
             s[left] = s[right];
             s[right] = temp;
-
             left++;
             right--;
         }

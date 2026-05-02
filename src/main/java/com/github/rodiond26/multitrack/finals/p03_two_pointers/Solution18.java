@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p03_two_pointers;
+package com.github.rodiond26.multitrack.finals.p03_two_pointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,10 +13,12 @@ class Solution18 {
             if (a > 0 && nums[a] == nums[a - 1]) {
                 continue;
             }
+
             for (int b = a + 1; b < nums.length - 2; b++) {
                 if (b > a + 1 && nums[b] == nums[b - 1]) {
                     continue;
                 }
+
                 int c = b + 1;
                 int d = nums.length - 1;
 
@@ -26,16 +28,18 @@ class Solution18 {
                         result.add(List.of(nums[a], nums[b], nums[c], nums[d]));
                         c++;
                         d--;
-                        while (c < d && nums[c] == nums[c + 1]) {
+
+                        while (c < d && nums[c] == nums[c - 1]) {
                             c++;
                         }
-                        while (c < d && nums[d] == nums[d - 1]) {
+                        while (c < d && nums[d] == nums[d + 1]) {
                             d--;
                         }
-                    } else if (sum < target) {
-                        c++;
-                    } else {
+
+                    } else if (sum > target) {
                         d--;
+                    } else {
+                        c++;
                     }
                 }
             }

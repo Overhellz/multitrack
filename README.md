@@ -67,20 +67,15 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                    | Link                                                               | Retention |
 |:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5,5       |
-|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 5         |
-|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 3,3       |
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5         |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 4         |
+|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 5         |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
-|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 5         |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4,3,5     |
-| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 3,4       |
+|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 4         |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 4         |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4         |
+| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 4         |
 | Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | 5         |
-|        |                                         |                                                                    |           |
-| Medium | 16. 3Sum Closest                        | https://leetcode.com/problems/3sum-closest/                        | 3         |
-|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | 4         |
-|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | 3         |
-|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/           | 4         |
 
 ---
 

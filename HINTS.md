@@ -36,49 +36,90 @@ private int hashByCharCountFullAscii(String str) {
 
 ```
 
-
 ---
 
 ## 2. Binary Search
- 
+
 ---
 
 ## 3. Two Pointers
- 
+
+```java
+// Убираем дубликаты
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            // Пропускаем дубликаты для i
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+
+            // Оптимизация: если nums[i] > 0, дальше все суммы > 0
+            if (nums[i] > 0) break;
+
+            int left = i + 1;
+            int right = nums.length - 1;
+
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+
+                if (sum == 0) {
+                    result.add(List.of(nums[i], nums[left], nums[right]));
+                    left++;
+                    right--;
+
+                    // Пропускаем дубликаты для left и right
+                    while (left < right && nums[left] == nums[left - 1]) left++;
+                    while (left < right && nums[right] == nums[right + 1]) right--;
+
+                } else if (sum > 0) {
+                    right--;
+                } else {
+                    left++;
+                }
+            }
+        }
+        return result;
+    }
+}
+
+```
+
 ---
 
 ## 4. Sliding Window
- 
+
 ---
 
 ## 5. Prefix Sum
- 
+
 ---
 
 ## 6. Intervals
- 
+
 ---
 
 ## 7. Stack, Queue
- 
+
 ---
 
 ## 8. Linked List
- 
+
 ---
 
 ## 9. Binary Tree (DFS)
- 
+
 ---
 
 ## 11. Binary Tree (BFS)
- 
+
 ---
 
 ## 10. Binary Search Tree
- 
+
 ---
 
 ## 12. Backtracking
- 
+
 ---
