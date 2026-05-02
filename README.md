@@ -81,20 +81,18 @@ https://github.com/Overhellz/multitrack
 
 ## 4. Sliding Window
 
-| Level  | Name                                                       | Link                                                                                | Retention |
-|:------:|:-----------------------------------------------------------|:------------------------------------------------------------------------------------|:----------|
-|  Easy  | 643. Maximum Average Subarray I                            | https://leetcode.com/problems/maximum-average-subarray-i/                           | 4         |
-| Medium | 209. Minimum Size Subarray Sum                             | https://leetcode.com/problems/minimum-size-subarray-sum/                            | 4         |
-| Medium | 1004. Max Consecutive Ones III                             | https://leetcode.com/problems/max-consecutive-ones-iii/                             |           |
-| Medium | 1493. Longest Subarray of 1's After Deleting One Element   | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/    |           |
-| Medium | 904. Fruit Into Baskets                                    | https://leetcode.com/problems/fruit-into-baskets/                                   |           |
-| Medium | 3. Longest Substring Without Repeating Characters          | https://leetcode.com/problems/longest-substring-without-repeating-characters/       |           |
-| Medium | 424. Longest Repeating Character Replacement               | https://leetcode.com/problems/longest-repeating-character-replacement/              |           |
-| Medium | 567. Permutation in String                                 | https://leetcode.com/problems/permutation-in-string/                                |           |
-| Medium | 438. Find All Anagrams in a String                         | https://leetcode.com/problems/find-all-anagrams-in-a-string/                        |           |
-|        |                                                            |                                                                                     |           |
-| Medium | 713. Subarray Product Less Than K                          | https://leetcode.com/problems/subarray-product-less-than-k/                         |           |
-| Medium | 1358. Number of Substrings Containing All Three Characters | https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/ |           |
+| Level  | Name                                                     | Link                                                                             | Retention |
+|:------:|:---------------------------------------------------------|:---------------------------------------------------------------------------------|:----------|
+|  Easy  | 643. Maximum Average Subarray I                          | https://leetcode.com/problems/maximum-average-subarray-i/                        | 4         |
+| Medium | 209. Minimum Size Subarray Sum                           | https://leetcode.com/problems/minimum-size-subarray-sum/                         | 4         |
+| Medium | 1004. Max Consecutive Ones III                           | https://leetcode.com/problems/max-consecutive-ones-iii/                          | 3         |
+| Medium | 1493. Longest Subarray of 1's After Deleting One Element | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ | 5         |
+| Medium | 904. Fruit Into Baskets                                  | https://leetcode.com/problems/fruit-into-baskets/                                | 4-        |
+| Medium | 3. Longest Substring Without Repeating Characters        | https://leetcode.com/problems/longest-substring-without-repeating-characters/    | 3         |
+| Medium | 424. Longest Repeating Character Replacement             | https://leetcode.com/problems/longest-repeating-character-replacement/           | 3         |
+| Medium | 567. Permutation in String                               | https://leetcode.com/problems/permutation-in-string/                             | 3         |
+| Medium | 438. Find All Anagrams in a String                       | https://leetcode.com/problems/find-all-anagrams-in-a-string/                     | 4         |
+|  Hard  | 76. Minimum Window Substring                             | https://leetcode.com/problems/minimum-window-substring/                          | 4         |
 
 ---
 
