@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p05_prefix_sum;
+package com.github.rodiond26.multitrack.finals.p05_prefix_sum;
 
 class Solution724 {
     public int pivotIndex(int[] nums) {
@@ -6,6 +6,7 @@ class Solution724 {
         for (int num : nums) {
             total += num;
         }
+
         int leftSum = 0;
 
         for (int i = 0; i < nums.length; i++) {

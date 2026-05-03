@@ -4,20 +4,20 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-|  # | Theme                    | Tasks                                                                          | Retention |
-|---:|:-------------------------|:-------------------------------------------------------------------------------|:---------:|
-|  1 | Hash Map                 | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |           |
-|  2 | Binary Search            | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |           |
-|  3 | Two Pointers             | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |           |
-|  4 | Sliding Window           | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |           |
-|  5 | Prefix Sum               | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |           |
-|  6 | Intervals                | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |           |
-|  7 | Stack, Queue             | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |           |
-|  8 | Linked List              | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |           |
-|  9 | Binary Tree (DFS)        | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |           |
-| 10 | Binary Tree (BFS)        | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |           |
-| 11 | Binary Search Tree (BST) | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |           |
-| 12 | Backtracking             | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |           |
+|  # | Theme                    | Tasks                                                                          | Status |
+|---:|:-------------------------|:-------------------------------------------------------------------------------|:------:|
+|  1 | Hash Map                 | 706, 1+++, 136, 347+, 451, 49++, 128++, 535, 138, 166, 454                     |  90%   |
+|  2 | Binary Search            | 704++, 35++, 74+, 153+++, 33+++, 34++, 162+, 875+++                            |  30%   |
+|  3 | Two Pointers             | 344, 125, 26, 167++, 15++, 11++, 392, 844, 88, 283, 18, 16                     |  85%   |
+|  4 | Sliding Window           | 643, 209, 1004, 1493, 904, 3+++, 424, 567, 438+, 713+, 1358, 76+               |  60%   |
+|  5 | Prefix Sum               | 303+, 724, 560+++, 523+, 238+++, 1109, 304+, 1314, 525+, 974+, 1248, 53+++     |        |
+|  6 | Intervals                | 56+++, 57++, 253+, 435++, 452+, 763+, 1288, 1094, 436                          |        |
+|  7 | Stack, Queue             | 20+++, 1047, 933, 2390, 71, 155++, 225, 232, 150+, 227+, 341                   |        |
+|  8 | Linked List              | 206+++, 21++, 141++, 707, 876, 19+, 234, 24, 2++, 138+, 142, 23+++, 143+, 25+  |        |
+|  9 | Binary Tree (DFS)        | 104+++, 226++, 112+, 100, 101+, 543++, 236+, 105, 114, 129+, 437, 124+++, 113+ |        |
+| 10 | Binary Tree (BFS)        | 637, 102+++, 103+, 199++, 515, 117, 1302, 116, 987, 513, 297++                 |        |
+| 11 | Binary Search Tree (BST) | 700, 108, 98+, 701, 450, 230+, 173, 96, 95, 538                                |        |
+| 12 | Backtracking             | 784+, 257, 78+++, 46+++, 39+++, 17++, 22+++, 79++, 90+, 77+                    |        |
 
 ---
 
@@ -98,19 +98,14 @@ https://github.com/Overhellz/multitrack
 
 ## 5. Prefix Sum
 
-| Level  | Name                                 | Link                                                          | Retention |
-|:------:|:-------------------------------------|:--------------------------------------------------------------|:----------|
-|  Easy  | 303. Range Sum Query - Immutable     | https://leetcode.com/problems/range-sum-query-immutable/      | 4+,5      |
-|  Easy  | 724. Find Pivot Index                | https://leetcode.com/problems/find-pivot-index/               | 3,4+      |
-| Medium | 560. Subarray Sum Equals K           | https://leetcode.com/problems/subarray-sum-equals-k/          | 2,4+      |
-| Medium | 523. Continuous Subarray Sum         | https://leetcode.com/problems/continuous-subarray-sum/        | 2+        |
-| Medium | 525. Contiguous Array                | https://leetcode.com/problems/contiguous-array/               | 2         |
-| Medium | 974. Subarray Sums Divisible by K    | https://leetcode.com/problems/subarray-sums-divisible-by-k/   | 2         |
-| Medium | 1248. Count Number of Nice Subarrays | https://leetcode.com/problems/count-number-of-nice-subarrays/ | 2+        |
-| Medium | 238. Product of Array Except Self    | https://leetcode.com/problems/product-of-array-except-self/   |           |
-| Medium | 304. Range Sum Query 2D - Immutable  | https://leetcode.com/problems/range-sum-query-2d-immutable/   |           |
-| Medium | 1314. Matrix Block Sum               | https://leetcode.com/problems/matrix-block-sum/               |           |
-| Medium | 1109. Corporate Flight Bookings      | https://leetcode.com/problems/corporate-flight-bookings/      |           |
+| Level  | Name                              | Link                                                        | Retention |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
+|  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    | 5         |
+|  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             | 3         |
+| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        | 3         |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | 3         |
+| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             | 3         |
+| Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ | 4         |
 
 ---
 

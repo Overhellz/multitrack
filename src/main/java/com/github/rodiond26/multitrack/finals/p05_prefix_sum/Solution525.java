@@ -1,27 +1,22 @@
-package com.github.rodiond26.multitrack.p05_prefix_sum;
+package com.github.rodiond26.multitrack.finals.p05_prefix_sum;
 
 import java.util.HashMap;
 import java.util.Map;
 
 class Solution525 {
     public int findMaxLength(int[] nums) {
-        int[] arr = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                arr[i] = -1;
-            } else {
-                arr[i] = 1;
-            }
-        }
-
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);
 
         int sum = 0;
         int maxLen = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1) {
+                sum++;
+            } else {
+                sum--;
+            }
 
             if (map.containsKey(sum)) {
                 int len = i - map.get(sum);

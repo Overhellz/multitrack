@@ -1,24 +1,22 @@
-package com.github.rodiond26.multitrack.p05_prefix_sum;
+package com.github.rodiond26.multitrack.finals.p05_prefix_sum;
 
 class NumArray {
 
-    private final int[] sum;
+    private final int[] arr;
 
     public NumArray(int[] nums) {
-        sum = new int[nums.length];
-        sum[0] = nums[0];
-
+        arr = new int[nums.length];
+        arr[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            sum[i] = sum[i - 1] + nums[i];
+            arr[i] = arr[i - 1] + nums[i];
         }
     }
 
     public int sumRange(int left, int right) {
         if (left == 0) {
-            return sum[right];
+            return arr[right];
         }
-
-        return sum[right] - sum[left - 1];
+        return arr[right] - arr[left - 1];
     }
 }
 
@@ -27,3 +25,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(left,right);
  */
+

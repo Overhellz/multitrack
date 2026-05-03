@@ -94,6 +94,16 @@ class Solution {
 
 ## 5. Prefix Sum
 
+```java
+// Остаток от деления в java должен быть положительный
+void remainder() {
+    int remainder = sum % k;
+    if (remainder < 0) {
+        remainder += k;
+    }
+}
+```
+
 ---
 
 ## 6. Intervals
