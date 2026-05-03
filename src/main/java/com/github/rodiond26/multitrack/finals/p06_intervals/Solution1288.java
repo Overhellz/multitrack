@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p04_intervals;
+package com.github.rodiond26.multitrack.finals.p06_intervals;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -13,7 +13,12 @@ class Solution1288 {
         for (int i = 1; i < intervals.length; i++) {
             int[] current = intervals[i];
 
-            if (prev[0] <= current[0] && current[1] <= prev[1]) {
+            int prevStart = prev[0];
+            int prevEnd = prev[1];
+            int currentStart = current[0];
+            int currentEnd = current[1];
+
+            if (prevStart <= currentStart && currentEnd <= prevEnd) {
                 count++;
             } else {
                 prev = current;
@@ -23,7 +28,7 @@ class Solution1288 {
         return intervals.length - count;
     }
 
-    private final Comparator<int[]> intervalComparator = (a, b) -> {
+    private final Comparator<int[]> intervalComparator = (a, b) -> { // TODO snippet
         if (a[0] == b[0]) {
             return Integer.compare(b[1], a[1]);
         }

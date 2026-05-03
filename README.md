@@ -102,10 +102,10 @@ https://github.com/Overhellz/multitrack
 |:------:|:----------------------------------|:------------------------------------------------------------|:----------|
 |  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    | 5         |
 |  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             | 3         |
-| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        | 3         |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | 3         |
-| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             | 3         |
-| Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ | 4         |
+| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        | 2         |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | 2         |
+| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             | 2         |
+| Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ | 3         |
 
 ---
 
@@ -113,18 +113,14 @@ https://github.com/Overhellz/multitrack
 
 |   Level   | Name                                                 | Link                                                                          | Retention |
 |:---------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
-|  Medium   | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                | 5,5-      |
-|  Medium   | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                | 3-,3,3    |
-|  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      | 2,3-      |
-|  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     | 2         |
-|  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    | 2         |
-| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 2         |
-|  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ | 3,5       |
-|  Medium   | 1094. Car Pooling                                    | https://leetcode.com/problems/car-pooling/                                    |           |
+|  Medium   | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                | 5         |
+|  Medium   | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                | 3+        |
+|  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      | 3         |
+|  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     | 3+        |
+|  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    | 3+        |
+| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 0         |
+|  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ | 3+        |
 |  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       | 2         |
-|  Medium   | 436. Find Right Interval                             | https://leetcode.com/problems/find-right-interval/                            | .         |
-|  Medium   | 729. My Calendar I                                   | https://leetcode.com/problems/my-calendar-i/                                  |           |
-|  Medium   | 731. My Calendar II                                  | https://leetcode.com/problems/my-calendar-ii/                                 |           |
 
 ---
 
