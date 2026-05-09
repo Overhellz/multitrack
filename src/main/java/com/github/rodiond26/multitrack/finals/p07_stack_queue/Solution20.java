@@ -1,18 +1,20 @@
-package com.github.rodiond26.multitrack.p05_stack_queue;
+package com.github.rodiond26.multitrack.finals.p07_stack_queue;
 
-import java.util.*;
 import java.util.Map;
+import java.util.Stack;
 
 class Solution20 {
     public boolean isValid(String s) {
         Map<Character, Character> map = Map.of(
                 '(', ')',
                 '{', '}',
-                '[', ']'
-        );
+                '[', ']');
 
         Stack<Character> stack = new Stack<>();
-        for (char ch : s.toCharArray()) {
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
             if (map.containsKey(ch)) {
                 stack.push(ch);
             } else {

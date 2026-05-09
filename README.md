@@ -118,7 +118,7 @@ https://github.com/Overhellz/multitrack
 |  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      | 3         |
 |  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     | 3+        |
 |  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    | 3+        |
-| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 0         |
+| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               | 1         |
 |  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ | 3+        |
 |  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       | 2         |
 
@@ -128,113 +128,15 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                           | Link                                                                    | Retention |
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
-|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        |           |
-|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |           |
-|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   |           |
-| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             |           |
-| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            |           |
-| Medium | 155. Min Stack                                 | https://leetcode.com/problems/min-stack/                                |           |
-|  Easy  | 225. Implement Stack using Queues              | https://leetcode.com/problems/implement-stack-using-queues/             |           |
-|  Easy  | 232. Implement Queue using Stacks              | https://leetcode.com/problems/implement-queue-using-stacks/             |           |
-| Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         |           |
-| Medium | 227. Basic Calculator II                       | https://leetcode.com/problems/basic-calculator-ii/                      |           |
-| Medium | 341. Flatten Nested List Iterator              | https://leetcode.com/problems/flatten-nested-list-iterator/             |           |
-
-
-
-
-Отлично, переходим к Stack и Queue. Это фундаментальные структуры, которые проверяют умение работать с порядком обработки данных (LIFO / FIFO).
-
-Ниже — 80% задач и оптимальный порядок решения внутри темы.
-
-Топ‑8 задач (80% покрытия) для Stack / Queue
-№	Уровень	Название	Почему это топ‑80%
-1	Easy	20. Valid Parentheses	Абсолютный must-have. Классика на проверку парности через стек. Встречается везде.
-2	Easy	155. Min Stack	Реализация стека с O(1) доступом к минимуму. Любят на собеседованиях (особенно в Amazon).
-3	Easy	232. Implement Queue using Stacks	Показывает глубокое понимание различий между Stack и Queue.
-4	Easy	225. Implement Stack using Queues	Аналогично, но чуть хитрее.
-5	Medium	150. Evaluate Reverse Polish Notation	Стек для вычисления выражений. Отличная задача на внимательность и обработку операций.
-6	Medium	71. Simplify Path	Стек для обработки путей (.., ., //). Часто спрашивают в системных интервью.
-7	Medium	2390. Removing Stars From a String	Стек для удаления символов. Современная задача, набирающая популярность.
-8	Medium	1047. Remove All Adjacent Duplicates In String	Более простая версия стека для удаления соседних дубликатов. Хорошая база перед 2390.
-Что из остального — не 80%?
-Задача	Почему можно отложить
-933. Number of Recent Calls	Очередь для подсчёта за последние 3000 мс. Полезна, но узкая тема (часто заменяется sliding window).
-227. Basic Calculator II	Хорошая задача, но сложная. Если будете делать, то только после 150.
-341. Flatten Nested List Iterator	Специфическая задача на итераторы и стек. Редко встречается в общих собеседованиях.
-     Оптимальный порядок решения задач
-     Блок 1 — База: скобки и удаление (Easy → Medium)
-20. Valid Parentheses
-
-Кладём открывающие скобки в стек. При закрывающей — проверяем, что стек не пуст и верхняя — соответствующая.
-
-1047. Remove All Adjacent Duplicates In String
-
-Кладём символы в стек. Если новый символ == вершине стека — выталкиваем вершину, иначе кладём.
-
-2390. Removing Stars From a String
-
-Усложнение: звезда удаляет левый символ. В реальности это тот же алгоритм: кладём буквы, при звезде — удаляем вершину.
-
-Блок 2 — Реализация структур (Easy)
-232. Implement Queue using Stacks
-
-Два стека: pushStack и popStack. При pop/peek, если popStack пуст — перекладываем всё из pushStack.
-
-225. Implement Stack using Queues
-
-Две очереди или одна очередь с перекладыванием элементов в конец.
-
-Блок 3 — Расширенные возможности стека (Easy → Medium)
-155. Min Stack
-
-Дополнительный стек для хранения минимумов. На каждом push кладём min(значение, предыдущий_минимум).
-
-150. Evaluate Reverse Polish Notation
-
-Кладём числа в стек. При операторе — достаём два числа, вычисляем, кладём результат обратно.
-
-71. Simplify Path
-
-Разбиваем путь по /, обрабатываем .. (выталкиваем из стека), . и пустые строки пропускаем, остальное — кладём.
-
-Почему именно этот порядок?
-Шаг	Переход	Что нового
-20 → 1047	Скобки → удаление дубликатов	Стек для сравнения с соседом
-1047 → 2390	Удаление дубликатов → удаление по команде	Звезда как команда «удалить»
-2390 → 232	Работа со стеком → имплементация очереди	Два стека, смена порядка
-232 → 225	Очередь из стеков → стек из очередей	Обратная задача
-225 → 155	Реализация → расширение функционала	Хранение параллельной информации
-155 → 150	Хранение минимума → вычисление выражений	Операнды и операции
-150 → 71	Арифметика → файловая система	Обработка команд навигации
-Главная идея Stack / Queue (одной фразой)
-Stack — это «тарелка» (последний пришёл — первый ушёл). Queue — это «очередь в магазине» (первый пришёл — первый ушёл).
-
-Связка "Stack, Queue + Linked List" (ваша пара №4)
-Эти темы часто идут вместе, потому что:
-
-Стек и очередь можно реализовать на связном списке
-
-Задачи типа 155. Min Stack проверяют понимание структур данных
-
-Linked List будет следующей темой по вашему плану
-
-Совет по подготовке
-Сначала решите 20. Valid Parentheses — это база для всех остальных.
-
-Затем 232 и 225 — поймёте разницу между стеком и очередью.
-
-После 155 и 150 — закрепите стек на практических задачах.
-
-**1047и2390` — отличные лёгкие задачи на закрепления.
-
-Эти 8 задач закроют любой раунд по стек/очередь на собеседовании.
-
-
-
-
-
-
+|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        | 3         |
+|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ | 5         |
+| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             | 5         |
+|  Easy  | 232. Implement Queue using Stacks              | https://leetcode.com/problems/implement-queue-using-stacks/             | 3         |
+|  Easy  | 225. Implement Stack using Queues              | https://leetcode.com/problems/implement-stack-using-queues/             | 3         |
+| Medium | 155. Min Stack                                 | https://leetcode.com/problems/min-stack/                                | 5         |
+|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   | 4         |
+| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            | 4         |
+| Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         | 5         |
 
 ---
 

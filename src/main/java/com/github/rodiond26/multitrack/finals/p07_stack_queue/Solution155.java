@@ -1,6 +1,9 @@
-package com.github.rodiond26.multitrack.p05_stack_queue;
+package com.github.rodiond26.multitrack.finals.p07_stack_queue;
 
 import java.util.Stack;
+
+class Solution155 {
+}
 
 class MinStack {
 
@@ -8,8 +11,8 @@ class MinStack {
     private final Stack<Integer> minStack;
 
     public MinStack() {
-        stack = new Stack<>();
-        minStack = new Stack<>();
+        this.stack = new Stack<>();
+        this.minStack = new Stack<>();
     }
 
     public void push(int val) {
@@ -18,15 +21,18 @@ class MinStack {
         if (minStack.isEmpty()) {
             minStack.push(val);
         } else {
-            int min = minStack.peek();
-            min = Math.min(min, val);
+            int min = Math.min(minStack.peek(), val);
             minStack.push(min);
         }
     }
 
     public void pop() {
-        stack.pop();
-        minStack.pop();
+        if (!stack.isEmpty()) {
+            stack.pop();
+        }
+        if (!minStack.isEmpty()) {
+            minStack.pop();
+        }
     }
 
     public int top() {
