@@ -1,4 +1,4 @@
-package com.github.rodiond26.multitrack.p06_linked_list;
+package com.github.rodiond26.multitrack.finals.p08_linked_list;
 
 public class ListNode {
 
@@ -17,4 +17,3 @@ public class ListNode {
         this.next = next;
     }
 }
- 
