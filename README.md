@@ -149,90 +149,12 @@ https://github.com/Overhellz/multitrack
 |  Easy  | 141. Linked List Cycle               | https://leetcode.com/problems/linked-list-cycle/                | 4         |
 | Medium | 142. Linked List Cycle II            | https://leetcode.com/problems/linked-list-cycle-ii/             | 2         |
 | Medium | 876. Middle of the Linked List       | https://leetcode.com/problems/middle-of-the-linked-list/        | 5         |
-| Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ |           |
-| Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  |           |
-| Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           |           |
-| Medium | 143. Reorder List                    | https://leetcode.com/problems/reorder-list/                     |           |
-| Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    |           |
-| Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              |           |
-|  Hard  | 25. Reverse Nodes in k-Group         | https://leetcode.com/problems/reverse-nodes-in-k-group/         |           |
-
-Ниже — 80% задач и оптимальный порядок решения внутри темы.
-
-Топ‑10 задач (80% покрытия) для Linked List
-№ Уровень Название Почему это топ‑80%
-1 Easy 206. Reverse Linked List Абсолютный must-have. База для 50% других задач. Без него никуда.
-2 Easy 21. Merge Two Sorted Lists Классика слияния. Рекурсия или итерация — одинаково важны.
-3 Easy 141. Linked List Cycle Быстрый и медленный указатель (hare и tortoise). Любят спрашивать.
-4 Medium 142. Linked List Cycle II Усложнение: найти начало цикла. Математический трюк.
-5 Medium 876. Middle of the Linked List Быстрый и медленный указатель для поиска середины.
-6 Medium 19. Remove Nth Node From End of List Два указателя с отступом. Очень практичная задача.
-7 Medium 2. Add Two Numbers Работа с «переносом» (carry). Каждое число хранится задом наперёд — удобно.
-8 Medium 234. Palindrome Linked List Три шага: найти середину → развернуть вторую половину → сравнить.
-9 Medium 143. Reorder List Комбинация: найти середину → развернуть вторую половину → слить.
-10 Medium 138. Copy List with Random Pointer Два прохода: сначала создаём узлы (HashMap old → new), затем проставляем
-random.
-Что из остального — не 80%?
-Задача Почему можно отложить
-
-707. Design Linked List Полезна для понимания, но очень длинная (5 методов). На собеседовании обычно не просят целиком.
-23. Merge k Sorted Lists Классика, но это hard, решается через кучу (PriorityQueue) или последовательное слияние. Часто
-    заменяют 21. Merge Two Sorted Lists.
-24. Swap Nodes in Pairs Хорошая, но после 206 и 25 становится необязательной.
-25. Reverse Nodes in k-Group Hard. Редко спрашивают, но если спрашивают — проверяют владение указателями. Только если вы
-    готовитесь в Google.
-
-Оптимальный порядок решения задач
-
-Блок 3 — Сложные манипуляции с позициями (Medium)
-
-19. Remove Nth Node From End of List
-    dummy.next = head. first = dummy, second = dummy. Сдвигаем second на n шагов, затем двигаем оба, пока second.next !=
-    null. first.next = first.next.next.
-
-2. Add Two Numbers
-   carry = 0. Пока есть узлы или carry != 0, суммируем, создаём новый узел carry % 10, carry /= 10.
-
-Блок 4 — Палиндром и reorder (Medium)
-
-234. Palindrome Linked List
-     Найти середину (876). Развернуть вторую половину (206). Сравнить первую и развёрнутую вторую.
-
-143. Reorder List
-     Найти середину → развернуть вторую половину → слить: один из первой, один из второй, затем из первой, и т.д.
-
-Блок 5 — Копирование с random (Medium)
-
-138. Copy List with Random Pointer
-     Первый проход: создаём копии узлов, кладём в HashMap оригинал → копия.
-     Второй проход: для каждого оригинала проставляем copy.next = map.get(original.next) и copy.random = map.get(
-     original.random).
-
-Почему именно этот порядок?
-Шаг Переход Что нового
-206 → 21 Разворот одного списка → слияние двух Основные операции с указателями
-21 → 141 Слияние → обнаружение цикла Введение двух скоростей
-141 → 142 Обнаружение цикла → поиск начала цикла Математическое доказательство
-142 → 876 Поиск начала цикла → поиск середины Тот же приём без цикла
-876 → 19 Поиск середины → удаление с конца Указатели с отступом
-19 → 2 Удаление с конца → сложение чисел Работа с переносом
-2 → 234 Сложение чисел → палиндром Комбинация трёх предыдущих
-234 → 143 Палиндром → переупорядочивание Та же комбинация, другой результат
-143 → 138 Переупорядочивание → копирование Двухпроходный алгоритм + HashMap
-Главная идея Linked List (одной фразой)
-Чтобы изменить список, иди по нему указателями, не бойся завести dummy-голову, а если нужна середина — используй slow и
-fast.
-
-Совет по подготовке
-Сначала 206. Reverse Linked List — это база.
-
-Потом 141 и 876 — освоите технику slow/fast.
-
-Затем 19 — поймёте, как работать с dummy и отступами.
-
-После 234 и 143 — научитесь комбинировать приёмы.
-
-На закуску 138 — закрепите связку с HashMap.
+| Medium | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ | 2         |
+| Medium | 2. Add Two Numbers                   | https://leetcode.com/problems/add-two-numbers/                  | 4         |
+| Medium | 234. Palindrome Linked List          | https://leetcode.com/problems/palindrome-linked-list/           | 2         |
+| Medium | 143. Reorder List                    | https://leetcode.com/problems/reorder-list/                     | 2         |
+| Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    | 5         |
+| Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              | 2         |
 
 ---
 
