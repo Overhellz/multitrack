@@ -162,117 +162,15 @@ https://github.com/Overhellz/multitrack
 
 | Level  | Name                                                           | Link                                                                                     | Retention |
 |:------:|:---------------------------------------------------------------|:-----------------------------------------------------------------------------------------|:----------|
-|  Easy  | 104. Maximum Depth of Binary Tree                              | https://leetcode.com/problems/maximum-depth-of-binary-tree/                              |           |
-|  Easy  | 226. Invert Binary Tree                                        | https://leetcode.com/problems/invert-binary-tree/                                        |           |
-|  Easy  | 112. Path Sum                                                  | https://leetcode.com/problems/path-sum/                                                  |           |
-| Medium | 100. Same Tree                                                 | https://leetcode.com/problems/same-tree/                                                 |           |
-| Medium | 101. Symmetric Tree                                            | https://leetcode.com/problems/symmetric-tree/                                            |           |
-| Medium | 543. Diameter of Binary Tree                                   | https://leetcode.com/problems/diameter-of-binary-tree/                                   |           |
-| Medium | 236. Lowest Common Ancestor of a Binary Tree                   | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/                   |           |
-| Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |           |
-| Medium | 114. Flatten Binary Tree to Linked List                        | https://leetcode.com/problems/flatten-binary-tree-to-linked-list/                        |           |
-| Medium | 129. Sum Root to Leaf Numbers                                  | https://leetcode.com/problems/sum-root-to-leaf-numbers/                                  |           |
-| Medium | 437. Path Sum III                                              | https://leetcode.com/problems/path-sum-iii/                                              |           |
-
-Отлично, переходим к Binary Tree (DFS). Это одна из самых важных тем для собеседований — здесь проверяют понимание
-рекурсии, обходов и работы с указателями.
-
-Ниже — 80% задач и оптимальный порядок решения внутри темы.
-
-Топ‑9 задач (80% покрытия) для Binary Tree (DFS)
-№ Уровень Название Почему это топ‑80%
-1 Easy 104. Maximum Depth of Binary Tree Абсолютная база DFS. Высота дерева = максимум глубины левого и правого
-поддеревьев + 1.
-2 Easy 226. Invert Binary Tree Классика: поменять местами левого и правого ребёнка рекурсивно. (Прославилась после твита
-Макса Хауэлла из Google).
-3 Easy 100. Same Tree Проверка идентичности двух деревьев. Рекурсивно сравниваем корни, затем левых и правых детей.
-4 Easy 101. Symmetric Tree Зеркальность относительно центра. Проверяем, что левое поддерево зеркально правому.
-5 Easy 112. Path Sum Есть ли путь от корня до листа с суммой = target.
-6 Medium 543. Diameter of Binary Tree Самый длинный путь между любыми двумя узлами (через глубины).
-7 Medium 236. Lowest Common Ancestor of a Binary Tree Must-have для FAANG. Найти узел, который является предком для p и
-q. Проверяет понимание post-order.
-8 Medium 105. Construct Binary Tree from Preorder and Inorder Восстановление дерева по двум обходам. Классика на
-индексы.
-9 Medium 114. Flatten Binary Tree to Linked List Превратить дерево в «связный список» (правый указатель) через DFS.
-Что из остального — не 80%?
-Задача Почему можно отложить
-
-129. Sum Root to Leaf Numbers Хорошая, но вариация 112 (Path Sum). Решается добавлением префикса.
-437. Path Sum III Хорошая, но сложная (медиум-хард). Сочетает DFS и префиксные суммы (как в 560). Добавьте, если есть
-     время.
-     Оптимальный порядок решения задач
-     Блок 1 — База: глубина и инверсия (Easy)
-104. Maximum Depth
-
-return 1 + Math.max(maxDepth(left), maxDepth(right))
-
-226. Invert Binary Tree
-
-Меняем left и right, рекурсивно инвертируем поддеревья.
-
-100. Same Tree
-
-Если оба null → true; если один null → false; проверяем val, затем рекурсивно левых и правых.
-
-101. Symmetric Tree
-
-Вспомогательная функция isMirror(left, right).
-
-Блок 2 — Пути и суммы (Easy → Medium)
-
-112. Path Sum
-
-Если root == null → false. Если лист → сравниваем с target - root.val. Иначе рекурсивно для левого и правого.
-
-543. Diameter of Binary Tree
-
-Для каждого узла считаем leftDepth + rightDepth. Обновляем максимум. Возвращаем 1 + max(left, right) наверх.
-
-236. Lowest Common Ancestor
-
-Пост-ордер: если root == p || root == q → return root. Ищем в левом и правом. Если оба не null → root. Если один → его.
-
-105. Construct Binary Tree from Preorder and Inorder
-
-Корень — первый элемент preorder. Ищем его индекс в inorder, делим left/right, рекурсивно строим.
-
-114. Flatten Binary Tree to Linked List
-
-Рекурсивно flatten правого, потом левого. Если есть левый: вставляем его между root и правым.
-
-Почему именно этот порядок?
-Шаг Переход Что нового
-104 → 226 Глубина → инверсия Операции со ссылками
-226 → 100 Инверсия → сравнение Работа с двумя деревьями
-100 → 101 Идентичность → зеркальность Симметрия относительно центра
-101 → 112 Форма → суммы Добавление аккумулятора
-112 → 543 Путь от корня → любой путь Глобальный максимум
-543 → 236 Длина пути → общий предок Post-order логика
-236 → 105 Предок → восстановление Работа с индексами
-105 → 114 Восстановление → flatten In-place модификация
-Главная идея Binary Tree DFS (одной фразой)
-Рекурсивно спускайся к детям, обрабатывай текущий узел, передавай состояние вниз (аккумуляторы) и собирай ответы
-наверх (post-order).
-
-Связка "Binary Tree (DFS) + BST (Binary Search Tree)" (ваша пара №5)
-Эти темы идут вместе, потому что:
-
-BST — это частный случай бинарного дерева с упорядоченными значениями.
-
-DFS (in-order) на BST даёт отсортированный массив.
-
-После DFS по обычным деревьям, BST будет просто вариацией с условиями left.val < root.val < right.val.
-
-Совет по подготовке
-Сначала решите 104, 226, 100 — это фундамент.
-
-Затем 112 и 543 — научитесь передавать аккумуляторы и обновлять глобальные максимумы.
-
-После 236 — поймёте мощь пост-ордера.
-
-На закуску 105 и 114 — самые сложные в этом списке.
-
-
+|  Easy  | 104. Maximum Depth of Binary Tree                              | https://leetcode.com/problems/maximum-depth-of-binary-tree/                              | 3         |
+|  Easy  | 226. Invert Binary Tree                                        | https://leetcode.com/problems/invert-binary-tree/                                        | 3         |
+| Medium | 100. Same Tree                                                 | https://leetcode.com/problems/same-tree/                                                 | 3         |
+| Medium | 101. Symmetric Tree                                            | https://leetcode.com/problems/symmetric-tree/                                            | 3         |
+|  Easy  | 112. Path Sum                                                  | https://leetcode.com/problems/path-sum/                                                  | 3         |
+| Medium | 543. Diameter of Binary Tree                                   | https://leetcode.com/problems/diameter-of-binary-tree/                                   | 3         |
+| Medium | 236. Lowest Common Ancestor of a Binary Tree                   | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/                   | 3         |
+| Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ | 2         |
+| Medium | 114. Flatten Binary Tree to Linked List                        | https://leetcode.com/problems/flatten-binary-tree-to-linked-list/                        | 2         |
 
 ---
 

@@ -126,13 +126,16 @@ void remainder() {
 
 ## 9. Binary Tree (DFS)
 
----
-
-## 11. Binary Tree (BFS)
+Главная идея Binary Tree DFS: рекурсивно спускайся к детям, обрабатывай текущий узел, передавай состояние вниз
+(аккумуляторы) и собирай ответы наверх (post-order).
 
 ---
 
 ## 10. Binary Search Tree
+
+---
+
+## 11. Binary Tree (BFS)
 
 ---
 

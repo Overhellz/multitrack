@@ -1,7 +1,7 @@
-package com.github.rodiond26.multitrack.p07_binary_tree_dfs;
+package com.github.rodiond26.multitrack.finals.p09_binary_tree_dfs;
 
 class Solution226 {
-    public TreeNode invertTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) { // TODO snippet
         if (root == null) {
             return null;
         }
