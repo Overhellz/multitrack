@@ -174,120 +174,24 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## 11. Binary Tree (BFS)
+## 10. Binary Tree (BFS)
 
 | Level  | Name                                                | Link                                                                          | Retention |
 |:------:|:----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
-|  Easy  | 637. Average of Levels in Binary Tree               | https://leetcode.com/problems/average-of-levels-in-binary-tree/               |           |
-| Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              |           |
-| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       |           |
-| Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    |           |
-| Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            |           |
-| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ |           |
-| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             |           |
-| Medium | 116. Populating Next Right Pointers in Each Node    | https://leetcode.com/problems/populating-next-right-pointers-in-each-node/    |           |
-| Medium | 987. Vertical Order Traversal of a Binary Tree      | https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/      |           |
-| Medium | 513. Find Bottom Left Tree Value                    | https://leetcode.com/problems/find-bottom-left-tree-value/                    |           |
-
-Отлично, переходим к Binary Tree (BFS). Это обход в ширину, который использует очередь и идеально подходит для задач,
-связанных с уровнями (level-by-level).
-
-Ниже — 80% задач и оптимальный порядок решения.
-
-Топ‑9 задач (80% покрытия) для Binary Tree (BFS)
-№ Уровень Название Почему это топ‑80%
-1 Easy 637. Average of Levels in Binary Tree База BFS: собираем сумму и количество узлов на каждом уровне.
-2 Medium 102. Binary Tree Level Order Traversal Классика BFS. Нужно вернуть список узлов по уровням.
-3 Medium 103. Binary Tree Zigzag Level Order Traversal Как 102, но порядок чередуется: слева направо, затем справа
-налево.
-4 Medium 199. Binary Tree Right Side View Берём последний узел на каждом уровне.
-5 Medium 515. Find Largest Value in Each Tree Row Берём максимум на уровне.
-6 Medium 513. Find Bottom Left Tree Value Первый узел на последнем уровне.
-7 Medium 1302. Deepest Leaves Sum Сумма значений на самом глубоком уровне.
-8 Medium 117. Populating Next Right Pointers in Each Node II Связываем узлы одного уровня в список через next (без
-идеальной структуры).
-9 Medium 987. Vertical Order Traversal of a Binary Tree Сложная, но популярная. Сортировка по колонкам и строкам.
-Что из остального — не 80%?
-Задача Почему можно отложить
-
-116. Populating Next Right Pointers Частный случай 117 (идеальное дерево). После 117 решается тривиально.
-     Оптимальный порядок решения задач
-     Блок 1 — База BFS (Easy → Medium)
-637. Average of Levels
-
-Очередь. На каждом уровне считаем сумму и количество, затем вычисляем среднее.
-
-102. Level Order Traversal
-
-Кладём в результат список узлов уровня.
-
-103. Zigzag Level Order
-
-Флаг leftToRight. Если false — переворачиваем список уровня перед добавлением.
-
-Блок 2 — Один элемент с уровня (Medium)
-
-199. Right Side View
-
-Добавляем в ответ последний узел на уровне (node.val при i == size-1).
-
-515. Largest Value in Each Row
-
-Отслеживаем max на уровне.
-
-513. Bottom Left Tree Value
-
-Запоминаем первый узел на уровне (i == 0). Последний запомненный и будет ответом.
-
-1302. Deepest Leaves Sum
-
-BFS до последнего уровня. На каждом уровне обновляем sum. После цикла sum — искомая.
-
-Блок 3 — Связывание и вертикальный обход (Medium)
-
-117. Populating Next Right Pointers
-
-BFS с очередью. Для каждого узла связываем node.next со следующим в очереди на том же уровне.
-
-987. Vertical Order Traversal
-
-BFS с отслеживанием (row, col). Сортируем: сначала по col, затем по row, затем по val.
-
-Почему именно этот порядок?
-Шаг Переход Что нового
-637 → 102 Среднее → список Формирование структуры уровня
-102 → 103 Прямой порядок → зигзаг Условие на переворот
-103 → 199 Весь уровень → правый край Выбор последнего элемента
-199 → 515 Правый край → максимум Поиск максимального значения
-515 → 513 Максимум → нижний левый Отслеживание первого элемента последнего уровня
-513 → 1302 Первый элемент → сумма всех Агрегация на последнем уровне
-1302 → 117 Значения → ссылки Работа с указателями next
-117 → 987 Горизонталь → вертикаль Сложная координатная сетка
-Главная идея BFS (одной фразой)
-Используй очередь, обрабатывай уровень за уровнем, для каждого узла клади в очередь его детей. Это даст тебе порядок по
-уровням (level-order).
-
-Связка "Binary Tree (DFS) + Binary Tree (BFS)" (ваша пара №5)
-Эти две темы идут вместе, потому что:
-
-DFS (стек/рекурсия) — вертикальное погружение (глубина)
-
-BFS (очередь) — горизонтальное расширение (ширина)
-
-Вместе они покрывают 100% задач на деревья.
-
-Совет по подготовке
-Сначала решите 102 и 637 — освоите базовый BFS.
-
-Затем 199, 515, 513 — научитесь извлекать разные свойства уровней.
-
-После 117 — поймёте, как связывать узлы.
-
-На закуску 987 — если останется время.
+|  Easy  | 637. Average of Levels in Binary Tree               | https://leetcode.com/problems/average-of-levels-in-binary-tree/               | 5-        |
+| Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              | 5         |
+| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       | 3         |
+| Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | 5         |
+| Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | 5         |
+| Medium | 513. Find Bottom Left Tree Value                    | https://leetcode.com/problems/find-bottom-left-tree-value/                    | 5         |
+| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | 5         |
+| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | 4         |
+| Medium | 116. Populating Next Right Pointers in Each Node    | https://leetcode.com/problems/populating-next-right-pointers-in-each-node/    | 5         |
+| Medium | 987. Vertical Order Traversal of a Binary Tree      | https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/      | 1         |
 
 ---
 
-## 10. Binary Search Tree
+## 11. Binary Search Tree (BST)
 
 | Level  | Name                                            | Link                                                                      | Retention |
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----------|

@@ -131,11 +131,14 @@ void remainder() {
 
 ---
 
-## 10. Binary Search Tree
+## 10. Binary Tree (BFS)
+
+Главная идея Binary Tree BFS: используй очередь, обрабатывай уровень за уровнем, для каждого узла клади в очередь его
+детей. Это даст тебе порядок по уровням (level-order).
 
 ---
 
-## 11. Binary Tree (BFS)
+## 11. Binary Search Tree (BST)
 
 ---
 
