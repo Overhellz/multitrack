@@ -197,65 +197,13 @@ https://github.com/Overhellz/multitrack
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----------|
 |  Easy  | 700. Search in a Binary Search Tree             | https://leetcode.com/problems/search-in-a-binary-search-tree/             | 4         |
 |  Easy  | 108. Convert Sorted Array to Binary Search Tree | https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/ | 3         |
-| Medium | 98. Validate Binary Search Tree                 | https://leetcode.com/problems/validate-binary-search-tree/                |           |
+| Medium | 98. Validate Binary Search Tree                 | https://leetcode.com/problems/validate-binary-search-tree/                | 3         |
 |  Easy  | 110. Balanced Binary Tree                       | https://leetcode.com/problems/balanced-binary-tree/                       | 3         |      
 | Medium | 701. Insert into a Binary Search Tree           | https://leetcode.com/problems/insert-into-a-binary-search-tree/           | 3         |
-| Medium | 450. Delete Node in a BST                       | https://leetcode.com/problems/delete-node-in-a-bst/                       |           |
-| Medium | 230. Kth Smallest Element in a BST              | https://leetcode.com/problems/kth-smallest-element-in-a-bst/              |           |
-| Medium | 173. Binary Search Tree Iterator                | https://leetcode.com/problems/binary-search-tree-iterator/                |           |
-| Medium | 538. Convert BST to Greater Tree                | https://leetcode.com/problems/convert-bst-to-greater-tree/                |           |
-
-Топ‑8 задач (80% покрытия) для Binary Search Tree (BST)
-№ Уровень Название Почему это топ‑80%
-1 Easy 700. Search in a BST База: поиск значения (O(log n) в среднем). Рекурсия или итерация.
-2 Easy 108. Convert Sorted Array to BST Построение сбалансированного BST: берём середину как корень, рекурсивно строим
-левое и правое.
-3 Medium 98. Validate BST Must-have. Проверка, что дерево — корректный BST. Нужно передавать min/max или использовать
-in-order.
-4 Medium 701. Insert into BST Вставка по правилу: меньше — налево, больше — направо.
-5 Medium 450. Delete Node in BST Три случая: нет детей, один ребёнок, два ребёнка (замена на минимум из правого).
-6 Medium 230. Kth Smallest Element in BST In-order обход: возвращаем k-й элемент.
-7 Medium 173. BST Iterator Реализация итератора in-order на стеке (аналогично Queue via Stacks).
-8 Medium 538. Convert BST to Greater Tree Reverse in-order (правый-корень-левый) с накоплением суммы.
-
-Оптимальный порядок решения задач
-
-Блок 2 — Проверка и вставка (Medium)
-
-98. Validate BST
-    Передаём в рекурсию min и max. Если root.val <= min || root.val >= max → false. Рекурсивно проверяем левое (max =
-    root.val) и правое (min = root.val).
-
-Блок 3 — Удаление и порядок
-
-450. Delete Node in BST
-     Найти узел. Если нет детей → null. Если один ребёнок → вернуть его. Если два: найти минимум в правом поддереве,
-     скопировать его значение в корень, удалить этот минимум из правого поддерева.
-
-230. Kth Smallest Element in BST
-     In-order обход (left → root → right). Считаем до k.
-
-Блок 4 — Обходы и преобразования
-
-173. BST Iterator
-     Стек. В next(): извлекаем верхний, добавляем его правых детей (и всех левых от них). hasNext() — проверяем стек на
-     пустоту.
-
-538. Convert BST to Greater Tree
-     Reverse in-order: идём направо → корень → налево, аккумулируем сумму и прибавляем к значениям.
-
-Почему именно этот порядок?
-Шаг Переход Что нового
-700 → 108 Поиск → построение Рекурсия с диапазонами
-108 → 98 Построение → валидация Проверка ограничений
-98 → 701 Валидация → вставка Поиск места + мутация
-701 → 450 Вставка → удаление Три случая, поиск минимума
-450 → 230 Удаление → k-й элемент In-order обход
-230 → 173 Рекурсивный in-order → итератор Стек для симуляции обхода
-173 → 538 Обычный in-order → reverse in-order Накопление суммы от больших к меньшим
-Главная идея BST (одной фразой)
-In-order обход даёт отсортированный порядок. Для проверки — передавай допустимые границы. Для удаления с двумя детьми —
-замени на минимум из правого.
+| Medium | 450. Delete Node in a BST                       | https://leetcode.com/problems/delete-node-in-a-bst/                       | 2         |
+| Medium | 230. Kth Smallest Element in a BST              | https://leetcode.com/problems/kth-smallest-element-in-a-bst/              | 3         |
+| Medium | 173. Binary Search Tree Iterator                | https://leetcode.com/problems/binary-search-tree-iterator/                | 2         |
+| Medium | 538. Convert BST to Greater Tree                | https://leetcode.com/problems/convert-bst-to-greater-tree/                | 1         |
 
 ---
 
